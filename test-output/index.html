@@ -1,0 +1,2041 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-chinaskin_iPhone">
+              <span class="suite-name border-skipped">chinaskin_iPhone</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-chinaskin_iPhone">
+                    <span>testng_ios.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-chinaskin_iPhone">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-chinaskin_iPhone">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-chinaskin_iPhone">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-chinaskin_iPhone">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-chinaskin_iPhone">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-chinaskin_iPhone">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">71 methods,  71 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-chinaskin_iPhone" class="hide-methods skipped suite-chinaskin_iPhone"> (hide)</a> <!-- hide-methods skipped suite-chinaskin_iPhone -->
+                      <a href="#" panel-name="suite-chinaskin_iPhone" class="show-methods skipped suite-chinaskin_iPhone"> (show)</a> <!-- show-methods skipped suite-chinaskin_iPhone -->
+                    </span>
+                    <div class="method-list-content skipped suite-chinaskin_iPhone">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test11ReceiveAddressPage" hash-for-method="TestFir01stAddReceivingAddress">TestFir01stAddReceivingAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir01stClickEditUserInfo">TestFir01stClickEditUserInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test05MyProfilePage" hash-for-method="TestFir01stClickExperience">TestFir01stClickExperience</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir01stClickLookUserPhoto">TestFir01stClickLookUserPhoto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test14EditUserInfoPage" hash-for-method="TestFir01stClickModifyUserFace">TestFir01stClickModifyUserFace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test15UserPostCollectionPage" hash-for-method="TestFir01stClickPostShareButton">TestFir01stClickPostShareButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage" hash-for-method="TestFir01stClickUserLabelSubscriptionList">TestFir01stClickUserLabelSubscriptionList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test08UserLoginPage" hash-for-method="TestFir01stClickUserRegisterButton">TestFir01stClickUserRegisterButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test10ForgetPasswordPage" hash-for-method="TestFir01stCommitUserRegister">TestFir01stCommitUserRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test00.yueni.ios.base.Test00AutoTestBase" hash-for-method="TestFir01stInitTestData">TestFir01stInitTestData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test13UserPostCenterPage" hash-for-method="TestFir01stOpenUserCenterPostDetail">TestFir01stOpenUserCenterPostDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test12MenstruationAssistantPage" hash-for-method="TestFir01stSetMenstruationAssitant">TestFir01stSetMenstruationAssitant</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage" hash-for-method="TestFir02stClickCancleLabelSubscription">TestFir02stClickCancleLabelSubscription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir02stClickEveryDaySign">TestFir02stClickEveryDaySign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test10ForgetPasswordPage" hash-for-method="TestFir02stClickLoginButton">TestFir02stClickLoginButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test12MenstruationAssistantPage" hash-for-method="TestFir02stClickModifyMenstruationPara">TestFir02stClickModifyMenstruationPara</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test14EditUserInfoPage" hash-for-method="TestFir02stClickModifyUserFace">TestFir02stClickModifyUserFace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir02stClickModifyUserPassword">TestFir02stClickModifyUserPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test15UserPostCollectionPage" hash-for-method="TestFir02stClickPostUserNickName">TestFir02stClickPostUserNickName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test13UserPostCenterPage" hash-for-method="TestFir02stClickPostUserNickName">TestFir02stClickPostUserNickName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test05MyProfilePage" hash-for-method="TestFir02stClickSetMyAddress">TestFir02stClickSetMyAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test08UserLoginPage" hash-for-method="TestFir02stClickUserForgetPassword">TestFir02stClickUserForgetPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test11ReceiveAddressPage" hash-for-method="TestFir02stEditReceivingAddress">TestFir02stEditReceivingAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test00.yueni.ios.base.Test00AutoTestBase" hash-for-method="TestFir02stInitTestApp">TestFir02stInitTestApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir03stClickAttentionButton">TestFir03stClickAttentionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test05MyProfilePage" hash-for-method="TestFir03stClickBandingNum">TestFir03stClickBandingNum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test15UserPostCollectionPage" hash-for-method="TestFir03stClickBrowePostImages">TestFir03stClickBrowePostImages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test13UserPostCenterPage" hash-for-method="TestFir03stClickBrowePostImages">TestFir03stClickBrowePostImages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage" hash-for-method="TestFir03stClickLabelSubscriptionButton">TestFir03stClickLabelSubscriptionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir03stClickModifyUserPassword">TestFir03stClickModifyUserPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test14EditUserInfoPage" hash-for-method="TestFir03stClickModifyUserSex">TestFir03stClickModifyUserSex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test08UserLoginPage" hash-for-method="TestFir03stClickUserLoginButton">TestFir03stClickUserLoginButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test12MenstruationAssistantPage" hash-for-method="TestFir03stOpenMenstruationCalendar">TestFir03stOpenMenstruationCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test13UserPostCenterPage" hash-for-method="TestFir04stClickBrowePostTag">TestFir04stClickBrowePostTag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test15UserPostCollectionPage" hash-for-method="TestFir04stClickBrowePostTag">TestFir04stClickBrowePostTag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir04stClickFollowerButton">TestFir04stClickFollowerButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage" hash-for-method="TestFir04stClickLabelSubscriptionShareButton">TestFir04stClickLabelSubscriptionShareButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test12MenstruationAssistantPage" hash-for-method="TestFir04stClickMenstruationAnalysis">TestFir04stClickMenstruationAnalysis</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test05MyProfilePage" hash-for-method="TestFir04stClickMenstruationAssistant">TestFir04stClickMenstruationAssistant</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test14EditUserInfoPage" hash-for-method="TestFir04stClickModifyUserSignature">TestFir04stClickModifyUserSignature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir04stClickOpenMessageCenterSet">TestFir04stClickOpenMessageCenterSet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test12MenstruationAssistantPage" hash-for-method="TestFir05stBrowseMenstruation">TestFir05stBrowseMenstruation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir05stClickImageQualitySetting">TestFir05stClickImageQualitySetting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test05MyProfilePage" hash-for-method="TestFir05stClickMySubscribe">TestFir05stClickMySubscribe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir05stClickPostButton">TestFir05stClickPostButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test15UserPostCollectionPage" hash-for-method="TestFir05stClickPostCommentButton">TestFir05stClickPostCommentButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test13UserPostCenterPage" hash-for-method="TestFir05stClickPostCommentButton">TestFir05stClickPostCommentButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test12MenstruationAssistantPage" hash-for-method="TestFir06stClickBackNowMonth">TestFir06stClickBackNowMonth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir06stClickCleanCacheData">TestFir06stClickCleanCacheData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir06stClickEditUserInfoButton">TestFir06stClickEditUserInfoButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test05MyProfilePage" hash-for-method="TestFir06stClickMyCollection">TestFir06stClickMyCollection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test15UserPostCollectionPage" hash-for-method="TestFir06stClickPostLikeButton">TestFir06stClickPostLikeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test13UserPostCenterPage" hash-for-method="TestFir06stClickPostLikeButton">TestFir06stClickPostLikeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test05MyProfilePage" hash-for-method="TestFir07stClickBindSocailPlatform">TestFir07stClickBindSocailPlatform</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir07stClickOpenCHASKINSkill">TestFir07stClickOpenCHASKINSkill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir07stClickOpenUserCenterPage">TestFir07stClickOpenUserCenterPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test13UserPostCenterPage" hash-for-method="TestFir07stClickPostShareButton">TestFir07stClickPostShareButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test15UserPostCollectionPage" hash-for-method="TestFir07stClickPostShareButton">TestFir07stClickPostShareButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test12MenstruationAssistantPage" hash-for-method="TestFir07stClickUpdateMenstruationCalendar">TestFir07stClickUpdateMenstruationCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test15UserPostCollectionPage" hash-for-method="TestFir08stClickCancleCollectionButton">TestFir08stClickCancleCollectionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir08stClickOpenFeedback">TestFir08stClickOpenFeedback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test13UserPostCenterPage" hash-for-method="TestFir08stClickPostShareButton">TestFir08stClickPostShareButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test05MyProfilePage" hash-for-method="TestFir08stClickSystemSettingPage">TestFir08stClickSystemSettingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir08stClickUserCenterAttentionButton">TestFir08stClickUserCenterAttentionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test15UserPostCollectionPage" hash-for-method="TestFir09stClickCancleShareButton">TestFir09stClickCancleShareButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir09stClickOpenFeedback">TestFir09stClickOpenFeedback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir09stClickUserCenterFollowerButton">TestFir09stClickUserCenterFollowerButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir10stClickOpenAboutUs">TestFir10stClickOpenAboutUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test06UserCenterPage" hash-for-method="TestFir10stClickUserCenterEditUserInfoButton">TestFir10stClickUserCenterEditUserInfoButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir11stClickShareAppToFriend">TestFir11stClickShareAppToFriend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-chinaskin_iPhone" title="test05.yueni.ios.myprofile.Test07SystemSettingPage" hash-for-method="TestFir12stClickUserExitLogout">TestFir12stClickUserExitLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-chinaskin_iPhone -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-chinaskin_iPhone" class="panel chinaskin_iPhone">
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test08UserLoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stClickUserRegisterButton">
+                  </a> <!-- TestFir01stClickUserRegisterButton -->
+                  <span class="method-name">TestFir01stClickUserRegisterButton</span>
+                  <em>
+(点击手机注册按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickUserForgetPassword">
+                  </a> <!-- TestFir02stClickUserForgetPassword -->
+                  <span class="method-name">TestFir02stClickUserForgetPassword</span>
+                  <em>
+(点击忘记密码按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir03stClickUserLoginButton">
+                  </a> <!-- TestFir03stClickUserLoginButton -->
+                  <span class="method-name">TestFir03stClickUserLoginButton</span>
+                  <em>
+(进行用户登录操作)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test07SystemSettingPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stClickEditUserInfo">
+                  </a> <!-- TestFir01stClickEditUserInfo -->
+                  <span class="method-name">TestFir01stClickEditUserInfo</span>
+                  <em>
+(点击编辑个人资料)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickModifyUserPassword">
+                  </a> <!-- TestFir02stClickModifyUserPassword -->
+                  <span class="method-name">TestFir02stClickModifyUserPassword</span>
+                  <em>
+(打开修改用户密码页面)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir03stClickModifyUserPassword">
+                  </a> <!-- TestFir03stClickModifyUserPassword -->
+                  <span class="method-name">TestFir03stClickModifyUserPassword</span>
+                  <em>
+(修改用户密码)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir04stClickOpenMessageCenterSet">
+                  </a> <!-- TestFir04stClickOpenMessageCenterSet -->
+                  <span class="method-name">TestFir04stClickOpenMessageCenterSet</span>
+                  <em>
+(点击消息中心设置)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir05stClickImageQualitySetting">
+                  </a> <!-- TestFir05stClickImageQualitySetting -->
+                  <span class="method-name">TestFir05stClickImageQualitySetting</span>
+                  <em>
+(点击图片质量设置)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir06stClickCleanCacheData">
+                  </a> <!-- TestFir06stClickCleanCacheData -->
+                  <span class="method-name">TestFir06stClickCleanCacheData</span>
+                  <em>
+(点击清理缓存数据)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir07stClickOpenCHASKINSkill">
+                  </a> <!-- TestFir07stClickOpenCHASKINSkill -->
+                  <span class="method-name">TestFir07stClickOpenCHASKINSkill</span>
+                  <em>
+(点击瓷肌小技巧)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir08stClickOpenFeedback">
+                  </a> <!-- TestFir08stClickOpenFeedback -->
+                  <span class="method-name">TestFir08stClickOpenFeedback</span>
+                  <em>
+(打开意见反馈)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir09stClickOpenFeedback">
+                  </a> <!-- TestFir09stClickOpenFeedback -->
+                  <span class="method-name">TestFir09stClickOpenFeedback</span>
+                  <em>
+(输入并点击提交意见反馈)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir10stClickOpenAboutUs">
+                  </a> <!-- TestFir10stClickOpenAboutUs -->
+                  <span class="method-name">TestFir10stClickOpenAboutUs</span>
+                  <em>
+(点击关于我们)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir11stClickShareAppToFriend">
+                  </a> <!-- TestFir11stClickShareAppToFriend -->
+                  <span class="method-name">TestFir11stClickShareAppToFriend</span>
+                  <em>
+(测试分享瓷肌给好友)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir12stClickUserExitLogout">
+                  </a> <!-- TestFir12stClickUserExitLogout -->
+                  <span class="method-name">TestFir12stClickUserExitLogout</span>
+                  <em>
+(点击退出当前用户)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test10ForgetPasswordPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stCommitUserRegister">
+                  </a> <!-- TestFir01stCommitUserRegister -->
+                  <span class="method-name">TestFir01stCommitUserRegister</span>
+                  <em>
+(重新设置新密码)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickLoginButton">
+                  </a> <!-- TestFir02stClickLoginButton -->
+                  <span class="method-name">TestFir02stClickLoginButton</span>
+                  <em>
+(用新密码重新登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test15UserPostCollectionPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stClickPostShareButton">
+                  </a> <!-- TestFir01stClickPostShareButton -->
+                  <span class="method-name">TestFir01stClickPostShareButton</span>
+                  <em>
+(点击查看帖子详情)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickPostUserNickName">
+                  </a> <!-- TestFir02stClickPostUserNickName -->
+                  <span class="method-name">TestFir02stClickPostUserNickName</span>
+                  <em>
+(点击帖子用户昵称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir03stClickBrowePostImages">
+                  </a> <!-- TestFir03stClickBrowePostImages -->
+                  <span class="method-name">TestFir03stClickBrowePostImages</span>
+                  <em>
+(点击浏览帖子图片)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir04stClickBrowePostTag">
+                  </a> <!-- TestFir04stClickBrowePostTag -->
+                  <span class="method-name">TestFir04stClickBrowePostTag</span>
+                  <em>
+(点击帖子的标签)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir05stClickPostCommentButton">
+                  </a> <!-- TestFir05stClickPostCommentButton -->
+                  <span class="method-name">TestFir05stClickPostCommentButton</span>
+                  <em>
+(点击帖子评论按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir06stClickPostLikeButton">
+                  </a> <!-- TestFir06stClickPostLikeButton -->
+                  <span class="method-name">TestFir06stClickPostLikeButton</span>
+                  <em>
+(点击帖子点赞按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir07stClickPostShareButton">
+                  </a> <!-- TestFir07stClickPostShareButton -->
+                  <span class="method-name">TestFir07stClickPostShareButton</span>
+                  <em>
+(点击帖子分享按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir08stClickCancleCollectionButton">
+                  </a> <!-- TestFir08stClickCancleCollectionButton -->
+                  <span class="method-name">TestFir08stClickCancleCollectionButton</span>
+                  <em>
+(点击分享功能中的取消收藏帖子按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir09stClickCancleShareButton">
+                  </a> <!-- TestFir09stClickCancleShareButton -->
+                  <span class="method-name">TestFir09stClickCancleShareButton</span>
+                  <em>
+(在分享页面点击取消分享按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test12MenstruationAssistantPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stSetMenstruationAssitant">
+                  </a> <!-- TestFir01stSetMenstruationAssitant -->
+                  <span class="method-name">TestFir01stSetMenstruationAssitant</span>
+                  <em>
+(点击设置姨妈助手)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickModifyMenstruationPara">
+                  </a> <!-- TestFir02stClickModifyMenstruationPara -->
+                  <span class="method-name">TestFir02stClickModifyMenstruationPara</span>
+                  <em>
+(点击修改姨妈经期参数)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir03stOpenMenstruationCalendar">
+                  </a> <!-- TestFir03stOpenMenstruationCalendar -->
+                  <span class="method-name">TestFir03stOpenMenstruationCalendar</span>
+                  <em>
+(点击进入经期日历)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir04stClickMenstruationAnalysis">
+                  </a> <!-- TestFir04stClickMenstruationAnalysis -->
+                  <span class="method-name">TestFir04stClickMenstruationAnalysis</span>
+                  <em>
+(点击经期分析)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir05stBrowseMenstruation">
+                  </a> <!-- TestFir05stBrowseMenstruation -->
+                  <span class="method-name">TestFir05stBrowseMenstruation</span>
+                  <em>
+(左右浏览不同月份经期)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir06stClickBackNowMonth">
+                  </a> <!-- TestFir06stClickBackNowMonth -->
+                  <span class="method-name">TestFir06stClickBackNowMonth</span>
+                  <em>
+(回到当前经期月份)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir07stClickUpdateMenstruationCalendar">
+                  </a> <!-- TestFir07stClickUpdateMenstruationCalendar -->
+                  <span class="method-name">TestFir07stClickUpdateMenstruationCalendar</span>
+                  <em>
+(点击更新月经日历)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test00.yueni.ios.base.Test00AutoTestBase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stInitTestData">
+                  </a> <!-- TestFir01stInitTestData -->
+                  <span class="method-name">TestFir01stInitTestData</span>
+                  <em>
+(初始化测试数据)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stInitTestApp">
+                  </a> <!-- TestFir02stInitTestApp -->
+                  <span class="method-name">TestFir02stInitTestApp</span>
+                  <em>
+(初始化测试应用)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test14EditUserInfoPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stClickModifyUserFace">
+                  </a> <!-- TestFir01stClickModifyUserFace -->
+                  <span class="method-name">TestFir01stClickModifyUserFace</span>
+                  <em>
+(点击修改用户头像)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickModifyUserFace">
+                  </a> <!-- TestFir02stClickModifyUserFace -->
+                  <span class="method-name">TestFir02stClickModifyUserFace</span>
+                  <em>
+(点击修改用户妮称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir03stClickModifyUserSex">
+                  </a> <!-- TestFir03stClickModifyUserSex -->
+                  <span class="method-name">TestFir03stClickModifyUserSex</span>
+                  <em>
+(点击修改用户性别)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir04stClickModifyUserSignature">
+                  </a> <!-- TestFir04stClickModifyUserSignature -->
+                  <span class="method-name">TestFir04stClickModifyUserSignature</span>
+                  <em>
+(点击修改用户个性签名)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test05MyProfilePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stClickExperience">
+                  </a> <!-- TestFir01stClickExperience -->
+                  <span class="method-name">TestFir01stClickExperience</span>
+                  <em>
+(点击打开我的经验值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickSetMyAddress">
+                  </a> <!-- TestFir02stClickSetMyAddress -->
+                  <span class="method-name">TestFir02stClickSetMyAddress</span>
+                  <em>
+(点击打开我的收货地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir03stClickBandingNum">
+                  </a> <!-- TestFir03stClickBandingNum -->
+                  <span class="method-name">TestFir03stClickBandingNum</span>
+                  <em>
+(点击打开我绑定的手机号码)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir04stClickMenstruationAssistant">
+                  </a> <!-- TestFir04stClickMenstruationAssistant -->
+                  <span class="method-name">TestFir04stClickMenstruationAssistant</span>
+                  <em>
+(点击打开姨妈助手)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir05stClickMySubscribe">
+                  </a> <!-- TestFir05stClickMySubscribe -->
+                  <span class="method-name">TestFir05stClickMySubscribe</span>
+                  <em>
+(点击打开我订阅的标签)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir06stClickMyCollection">
+                  </a> <!-- TestFir06stClickMyCollection -->
+                  <span class="method-name">TestFir06stClickMyCollection</span>
+                  <em>
+(点击打开我的收藏)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir07stClickBindSocailPlatform">
+                  </a> <!-- TestFir07stClickBindSocailPlatform -->
+                  <span class="method-name">TestFir07stClickBindSocailPlatform</span>
+                  <em>
+(点击打开绑定社交平台)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir08stClickSystemSettingPage">
+                  </a> <!-- TestFir08stClickSystemSettingPage -->
+                  <span class="method-name">TestFir08stClickSystemSettingPage</span>
+                  <em>
+(点击打开系统设置)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test13UserPostCenterPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stOpenUserCenterPostDetail">
+                  </a> <!-- TestFir01stOpenUserCenterPostDetail -->
+                  <span class="method-name">TestFir01stOpenUserCenterPostDetail</span>
+                  <em>
+(打开用户帖子详情)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickPostUserNickName">
+                  </a> <!-- TestFir02stClickPostUserNickName -->
+                  <span class="method-name">TestFir02stClickPostUserNickName</span>
+                  <em>
+(点击帖子用户昵称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir03stClickBrowePostImages">
+                  </a> <!-- TestFir03stClickBrowePostImages -->
+                  <span class="method-name">TestFir03stClickBrowePostImages</span>
+                  <em>
+(点击浏览帖子图片)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir04stClickBrowePostTag">
+                  </a> <!-- TestFir04stClickBrowePostTag -->
+                  <span class="method-name">TestFir04stClickBrowePostTag</span>
+                  <em>
+(点击帖子的标签)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir05stClickPostCommentButton">
+                  </a> <!-- TestFir05stClickPostCommentButton -->
+                  <span class="method-name">TestFir05stClickPostCommentButton</span>
+                  <em>
+(点击帖子评论按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir06stClickPostLikeButton">
+                  </a> <!-- TestFir06stClickPostLikeButton -->
+                  <span class="method-name">TestFir06stClickPostLikeButton</span>
+                  <em>
+(点击帖子点赞按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir07stClickPostShareButton">
+                  </a> <!-- TestFir07stClickPostShareButton -->
+                  <span class="method-name">TestFir07stClickPostShareButton</span>
+                  <em>
+(点击帖子分享按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir08stClickPostShareButton">
+                  </a> <!-- TestFir08stClickPostShareButton -->
+                  <span class="method-name">TestFir08stClickPostShareButton</span>
+                  <em>
+(点击分享功能中的删除帖子按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test11ReceiveAddressPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stAddReceivingAddress">
+                  </a> <!-- TestFir01stAddReceivingAddress -->
+                  <span class="method-name">TestFir01stAddReceivingAddress</span>
+                  <em>
+(新增我的收货地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stEditReceivingAddress">
+                  </a> <!-- TestFir02stEditReceivingAddress -->
+                  <span class="method-name">TestFir02stEditReceivingAddress</span>
+                  <em>
+(编辑并保存收货地址)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test06UserCenterPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stClickLookUserPhoto">
+                  </a> <!-- TestFir01stClickLookUserPhoto -->
+                  <span class="method-name">TestFir01stClickLookUserPhoto</span>
+                  <em>
+(查看用户头像)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickEveryDaySign">
+                  </a> <!-- TestFir02stClickEveryDaySign -->
+                  <span class="method-name">TestFir02stClickEveryDaySign</span>
+                  <em>
+(点击用户签到按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir03stClickAttentionButton">
+                  </a> <!-- TestFir03stClickAttentionButton -->
+                  <span class="method-name">TestFir03stClickAttentionButton</span>
+                  <em>
+(点击我的关注列表)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir04stClickFollowerButton">
+                  </a> <!-- TestFir04stClickFollowerButton -->
+                  <span class="method-name">TestFir04stClickFollowerButton</span>
+                  <em>
+(打开我的粉丝页面)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir05stClickPostButton">
+                  </a> <!-- TestFir05stClickPostButton -->
+                  <span class="method-name">TestFir05stClickPostButton</span>
+                  <em>
+(打开我的帖子列表页面)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir06stClickEditUserInfoButton">
+                  </a> <!-- TestFir06stClickEditUserInfoButton -->
+                  <span class="method-name">TestFir06stClickEditUserInfoButton</span>
+                  <em>
+(点击编辑用户资料功能)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir07stClickOpenUserCenterPage">
+                  </a> <!-- TestFir07stClickOpenUserCenterPage -->
+                  <span class="method-name">TestFir07stClickOpenUserCenterPage</span>
+                  <em>
+(打开用户中心帖子列表页面)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir08stClickUserCenterAttentionButton">
+                  </a> <!-- TestFir08stClickUserCenterAttentionButton -->
+                  <span class="method-name">TestFir08stClickUserCenterAttentionButton</span>
+                  <em>
+(点击用户中心关注按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir09stClickUserCenterFollowerButton">
+                  </a> <!-- TestFir09stClickUserCenterFollowerButton -->
+                  <span class="method-name">TestFir09stClickUserCenterFollowerButton</span>
+                  <em>
+(点击用户中心粉丝按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir10stClickUserCenterEditUserInfoButton">
+                  </a> <!-- TestFir10stClickUserCenterEditUserInfoButton -->
+                  <span class="method-name">TestFir10stClickUserCenterEditUserInfoButton</span>
+                  <em>
+(点击用户中心编辑资料功能)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+          <div class="suite-chinaskin_iPhone-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir01stClickUserLabelSubscriptionList">
+                  </a> <!-- TestFir01stClickUserLabelSubscriptionList -->
+                  <span class="method-name">TestFir01stClickUserLabelSubscriptionList</span>
+                  <em>
+(点击我订阅的标签)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir02stClickCancleLabelSubscription">
+                  </a> <!-- TestFir02stClickCancleLabelSubscription -->
+                  <span class="method-name">TestFir02stClickCancleLabelSubscription</span>
+                  <em>
+(点击取消订阅标签按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir03stClickLabelSubscriptionButton">
+                  </a> <!-- TestFir03stClickLabelSubscriptionButton -->
+                  <span class="method-name">TestFir03stClickLabelSubscriptionButton</span>
+                  <em>
+(点击订阅标签按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestFir04stClickLabelSubscriptionShareButton">
+                  </a> <!-- TestFir04stClickLabelSubscriptionShareButton -->
+                  <span class="method-name">TestFir04stClickLabelSubscriptionShareButton</span>
+                  <em>
+(点击订阅标签分享按钮)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-chinaskin_iPhone-class-skipped -->
+        </div> <!-- panel chinaskin_iPhone -->
+        <div panel-name="test-xml-chinaskin_iPhone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/chinaskin/UIAutoTest/UIAutoTest/testng_ios.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;chinaskin_iPhone&quot;&gt;
+  &lt;parameter name=&quot;app&quot; value=&quot;com.yueniapp.sns&quot;/&gt;
+  &lt;parameter name=&quot;port&quot; value=&quot;4723&quot;/&gt;
+  &lt;parameter name=&quot;platformVersion&quot; value=&quot;9.2&quot;/&gt;
+  &lt;parameter name=&quot;serverip&quot; value=&quot;0.0.0.0&quot;/&gt;
+  &lt;parameter name=&quot;device_type&quot; value=&quot;iphone&quot;/&gt;
+  &lt;parameter name=&quot;platformName&quot; value=&quot;ios&quot;/&gt;
+  &lt;parameter name=&quot;udid&quot; value=&quot;a4ba1247eb17079858e6bd1cc8ae78360b06cf0b&quot;/&gt;
+  &lt;parameter name=&quot;deviceName&quot; value=&quot;iPhone6p&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;ChinaSkinAllTestCase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test00.yueni.ios.base.Test00AutoTestBase&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test05MyProfilePage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test06UserCenterPage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test07SystemSettingPage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test08UserLoginPage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test10ForgetPasswordPage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test11ReceiveAddressPage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test12MenstruationAssistantPage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test13UserPostCenterPage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test14EditUserInfoPage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test15UserPostCollectionPage&quot;/&gt;
+      &lt;class name=&quot;test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChinaSkinAllTestCase --&gt;
+&lt;/suite&gt; &lt;!-- chinaskin_iPhone --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-chinaskin_iPhone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for chinaskin_iPhone</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChinaSkinAllTestCase (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-chinaskin_iPhone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for chinaskin_iPhone</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-chinaskin_iPhone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for chinaskin_iPhone</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_chinaskin_iPhone');
+function tableData_chinaskin_iPhone() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(71);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestFir01stAddReceivingAddress')
+data.setCell(0, 2, 'test05.yueni.ios.myprofile.Test11ReceiveAddressPage')
+data.setCell(0, 3, 2);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestFir01stOpenUserCenterPostDetail')
+data.setCell(1, 2, 'test05.yueni.ios.myprofile.Test13UserPostCenterPage')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestFir04stClickMenstruationAnalysis')
+data.setCell(2, 2, 'test05.yueni.ios.myprofile.Test12MenstruationAssistantPage')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestFir02stClickModifyUserFace')
+data.setCell(3, 2, 'test05.yueni.ios.myprofile.Test14EditUserInfoPage')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestFir07stClickPostShareButton')
+data.setCell(4, 2, 'test05.yueni.ios.myprofile.Test15UserPostCollectionPage')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestFir02stClickEveryDaySign')
+data.setCell(5, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestFir12stClickUserExitLogout')
+data.setCell(6, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestFir02stClickLoginButton')
+data.setCell(7, 2, 'test05.yueni.ios.myprofile.Test10ForgetPasswordPage')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestFir10stClickUserCenterEditUserInfoButton')
+data.setCell(8, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestFir04stClickMenstruationAssistant')
+data.setCell(9, 2, 'test05.yueni.ios.myprofile.Test05MyProfilePage')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestFir05stClickPostButton')
+data.setCell(10, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestFir09stClickOpenFeedback')
+data.setCell(11, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestFir02stClickCancleLabelSubscription')
+data.setCell(12, 2, 'test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestFir04stClickLabelSubscriptionShareButton')
+data.setCell(13, 2, 'test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestFir02stClickModifyMenstruationPara')
+data.setCell(14, 2, 'test05.yueni.ios.myprofile.Test12MenstruationAssistantPage')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestFir05stClickMySubscribe')
+data.setCell(15, 2, 'test05.yueni.ios.myprofile.Test05MyProfilePage')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestFir06stClickCleanCacheData')
+data.setCell(16, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestFir02stEditReceivingAddress')
+data.setCell(17, 2, 'test05.yueni.ios.myprofile.Test11ReceiveAddressPage')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TestFir01stCommitUserRegister')
+data.setCell(18, 2, 'test05.yueni.ios.myprofile.Test10ForgetPasswordPage')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestFir07stClickOpenUserCenterPage')
+data.setCell(19, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestFir06stClickPostLikeButton')
+data.setCell(20, 2, 'test05.yueni.ios.myprofile.Test15UserPostCollectionPage')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestFir07stClickPostShareButton')
+data.setCell(21, 2, 'test05.yueni.ios.myprofile.Test13UserPostCenterPage')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestFir04stClickOpenMessageCenterSet')
+data.setCell(22, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TestFir02stInitTestApp')
+data.setCell(23, 2, 'test00.yueni.ios.base.Test00AutoTestBase')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TestFir01stClickUserRegisterButton')
+data.setCell(24, 2, 'test05.yueni.ios.myprofile.Test08UserLoginPage')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TestFir01stClickExperience')
+data.setCell(25, 2, 'test05.yueni.ios.myprofile.Test05MyProfilePage')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TestFir03stClickBandingNum')
+data.setCell(26, 2, 'test05.yueni.ios.myprofile.Test05MyProfilePage')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TestFir08stClickPostShareButton')
+data.setCell(27, 2, 'test05.yueni.ios.myprofile.Test13UserPostCenterPage')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TestFir02stClickPostUserNickName')
+data.setCell(28, 2, 'test05.yueni.ios.myprofile.Test15UserPostCollectionPage')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TestFir05stClickPostCommentButton')
+data.setCell(29, 2, 'test05.yueni.ios.myprofile.Test15UserPostCollectionPage')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TestFir02stClickPostUserNickName')
+data.setCell(30, 2, 'test05.yueni.ios.myprofile.Test13UserPostCenterPage')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TestFir02stClickUserForgetPassword')
+data.setCell(31, 2, 'test05.yueni.ios.myprofile.Test08UserLoginPage')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TestFir05stBrowseMenstruation')
+data.setCell(32, 2, 'test05.yueni.ios.myprofile.Test12MenstruationAssistantPage')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TestFir06stClickBackNowMonth')
+data.setCell(33, 2, 'test05.yueni.ios.myprofile.Test12MenstruationAssistantPage')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TestFir01stSetMenstruationAssitant')
+data.setCell(34, 2, 'test05.yueni.ios.myprofile.Test12MenstruationAssistantPage')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TestFir05stClickImageQualitySetting')
+data.setCell(35, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'TestFir02stClickModifyUserPassword')
+data.setCell(36, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'TestFir01stClickPostShareButton')
+data.setCell(37, 2, 'test05.yueni.ios.myprofile.Test15UserPostCollectionPage')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'TestFir02stClickSetMyAddress')
+data.setCell(38, 2, 'test05.yueni.ios.myprofile.Test05MyProfilePage')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'TestFir04stClickFollowerButton')
+data.setCell(39, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'TestFir03stClickModifyUserPassword')
+data.setCell(40, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'TestFir09stClickCancleShareButton')
+data.setCell(41, 2, 'test05.yueni.ios.myprofile.Test15UserPostCollectionPage')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'TestFir08stClickUserCenterAttentionButton')
+data.setCell(42, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'TestFir11stClickShareAppToFriend')
+data.setCell(43, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'TestFir03stClickBrowePostImages')
+data.setCell(44, 2, 'test05.yueni.ios.myprofile.Test15UserPostCollectionPage')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'TestFir03stClickBrowePostImages')
+data.setCell(45, 2, 'test05.yueni.ios.myprofile.Test13UserPostCenterPage')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'TestFir08stClickOpenFeedback')
+data.setCell(46, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'TestFir10stClickOpenAboutUs')
+data.setCell(47, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'TestFir05stClickPostCommentButton')
+data.setCell(48, 2, 'test05.yueni.ios.myprofile.Test13UserPostCenterPage')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'TestFir04stClickBrowePostTag')
+data.setCell(49, 2, 'test05.yueni.ios.myprofile.Test13UserPostCenterPage')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'TestFir04stClickBrowePostTag')
+data.setCell(50, 2, 'test05.yueni.ios.myprofile.Test15UserPostCollectionPage')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'TestFir01stClickEditUserInfo')
+data.setCell(51, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'TestFir07stClickOpenCHASKINSkill')
+data.setCell(52, 2, 'test05.yueni.ios.myprofile.Test07SystemSettingPage')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'TestFir07stClickUpdateMenstruationCalendar')
+data.setCell(53, 2, 'test05.yueni.ios.myprofile.Test12MenstruationAssistantPage')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'TestFir07stClickBindSocailPlatform')
+data.setCell(54, 2, 'test05.yueni.ios.myprofile.Test05MyProfilePage')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'TestFir04stClickModifyUserSignature')
+data.setCell(55, 2, 'test05.yueni.ios.myprofile.Test14EditUserInfoPage')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'TestFir03stClickModifyUserSex')
+data.setCell(56, 2, 'test05.yueni.ios.myprofile.Test14EditUserInfoPage')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'TestFir03stClickUserLoginButton')
+data.setCell(57, 2, 'test05.yueni.ios.myprofile.Test08UserLoginPage')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'TestFir06stClickEditUserInfoButton')
+data.setCell(58, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'TestFir01stClickModifyUserFace')
+data.setCell(59, 2, 'test05.yueni.ios.myprofile.Test14EditUserInfoPage')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'TestFir03stClickAttentionButton')
+data.setCell(60, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(60, 3, 0);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'TestFir06stClickMyCollection')
+data.setCell(61, 2, 'test05.yueni.ios.myprofile.Test05MyProfilePage')
+data.setCell(61, 3, 0);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'TestFir06stClickPostLikeButton')
+data.setCell(62, 2, 'test05.yueni.ios.myprofile.Test13UserPostCenterPage')
+data.setCell(62, 3, 0);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'TestFir03stClickLabelSubscriptionButton')
+data.setCell(63, 2, 'test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage')
+data.setCell(63, 3, 0);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'TestFir01stInitTestData')
+data.setCell(64, 2, 'test00.yueni.ios.base.Test00AutoTestBase')
+data.setCell(64, 3, 0);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'TestFir08stClickSystemSettingPage')
+data.setCell(65, 2, 'test05.yueni.ios.myprofile.Test05MyProfilePage')
+data.setCell(65, 3, 0);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'TestFir01stClickLookUserPhoto')
+data.setCell(66, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(66, 3, 0);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'TestFir08stClickCancleCollectionButton')
+data.setCell(67, 2, 'test05.yueni.ios.myprofile.Test15UserPostCollectionPage')
+data.setCell(67, 3, 0);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'TestFir01stClickUserLabelSubscriptionList')
+data.setCell(68, 2, 'test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage')
+data.setCell(68, 3, 0);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'TestFir09stClickUserCenterFollowerButton')
+data.setCell(69, 2, 'test05.yueni.ios.myprofile.Test06UserCenterPage')
+data.setCell(69, 3, 0);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'TestFir03stOpenMenstruationCalendar')
+data.setCell(70, 2, 'test05.yueni.ios.myprofile.Test12MenstruationAssistantPage')
+data.setCell(70, 3, 0);
+window.suiteTableData['chinaskin_iPhone']= { tableData: data, tableDiv: 'times-div-chinaskin_iPhone'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 ms</span>
+              <div id="times-div-chinaskin_iPhone">
+              </div> <!-- times-div-chinaskin_iPhone -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-chinaskin_iPhone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for chinaskin_iPhone</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-chinaskin_iPhone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">25 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test07SystemSettingPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test10ForgetPasswordPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test00.yueni.ios.base.Test00AutoTestBase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TestFir03stCheckingInternetStatus</span>
+                <br/>
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">TestFir05stClickCloseAlertWindow</span>
+                <br/>
+                <span class="ignored-method-name">TestFir04stClickCloseCancelUpdate</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test12MenstruationAssistantPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test15UserPostCollectionPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test05MyProfilePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test14EditUserInfoPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test11ReceiveAddressPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test13UserPostCenterPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test06UserCenterPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchTestApp</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-chinaskin_iPhone" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test08UserLoginPage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite(ios, 9.2, iPhone6p, a4ba1247eb17079858e6bd1cc8ae78360b06cf0b, com.yueniapp.sns, 0.0.0.0, 4723, iphon...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchTestApp(ios, 9.2, iPhone6p, a4ba1247eb17079858e6bd1cc8ae78360b06cf0b, com.yueniapp.sns, 0.0.0.0, 4723, iphon...)</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test00.yueni.ios.base.Test00AutoTestBase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stInitTestData</span>
+                <span class="method-start">19220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stInitTestApp</span>
+                <span class="method-start">19221 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test05MyProfilePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stClickExperience</span>
+                <span class="method-start">19224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickSetMyAddress</span>
+                <span class="method-start">19225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir03stClickBandingNum</span>
+                <span class="method-start">19226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir04stClickMenstruationAssistant</span>
+                <span class="method-start">19226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir05stClickMySubscribe</span>
+                <span class="method-start">19227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir06stClickMyCollection</span>
+                <span class="method-start">19228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir07stClickBindSocailPlatform</span>
+                <span class="method-start">19229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir08stClickSystemSettingPage</span>
+                <span class="method-start">19230 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test06UserCenterPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stClickLookUserPhoto</span>
+                <span class="method-start">19232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickEveryDaySign</span>
+                <span class="method-start">19232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir03stClickAttentionButton</span>
+                <span class="method-start">19233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir04stClickFollowerButton</span>
+                <span class="method-start">19234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir05stClickPostButton</span>
+                <span class="method-start">19234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir06stClickEditUserInfoButton</span>
+                <span class="method-start">19235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir07stClickOpenUserCenterPage</span>
+                <span class="method-start">19235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir08stClickUserCenterAttentionButton</span>
+                <span class="method-start">19236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir09stClickUserCenterFollowerButton</span>
+                <span class="method-start">19237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir10stClickUserCenterEditUserInfoButton</span>
+                <span class="method-start">19237 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test07SystemSettingPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stClickEditUserInfo</span>
+                <span class="method-start">19239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickModifyUserPassword</span>
+                <span class="method-start">19239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir03stClickModifyUserPassword</span>
+                <span class="method-start">19240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir04stClickOpenMessageCenterSet</span>
+                <span class="method-start">19240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir05stClickImageQualitySetting</span>
+                <span class="method-start">19241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir06stClickCleanCacheData</span>
+                <span class="method-start">19241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir07stClickOpenCHASKINSkill</span>
+                <span class="method-start">19242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir08stClickOpenFeedback</span>
+                <span class="method-start">19244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir09stClickOpenFeedback</span>
+                <span class="method-start">19245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir10stClickOpenAboutUs</span>
+                <span class="method-start">19246 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir11stClickShareAppToFriend</span>
+                <span class="method-start">19247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir12stClickUserExitLogout</span>
+                <span class="method-start">19247 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test08UserLoginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stClickUserRegisterButton</span>
+                <span class="method-start">19249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickUserForgetPassword</span>
+                <span class="method-start">19249 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test10ForgetPasswordPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stCommitUserRegister</span>
+                <span class="method-start">19250 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test08UserLoginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir03stClickUserLoginButton</span>
+                <span class="method-start">19250 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test10ForgetPasswordPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickLoginButton</span>
+                <span class="method-start">19251 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test11ReceiveAddressPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stAddReceivingAddress</span>
+                <span class="method-start">19253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stEditReceivingAddress</span>
+                <span class="method-start">19255 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test12MenstruationAssistantPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stSetMenstruationAssitant</span>
+                <span class="method-start">19259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickModifyMenstruationPara</span>
+                <span class="method-start">19259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir03stOpenMenstruationCalendar</span>
+                <span class="method-start">19260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir04stClickMenstruationAnalysis</span>
+                <span class="method-start">19260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir05stBrowseMenstruation</span>
+                <span class="method-start">19261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir06stClickBackNowMonth</span>
+                <span class="method-start">19262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir07stClickUpdateMenstruationCalendar</span>
+                <span class="method-start">19263 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test13UserPostCenterPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stOpenUserCenterPostDetail</span>
+                <span class="method-start">19264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickPostUserNickName</span>
+                <span class="method-start">19265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir03stClickBrowePostImages</span>
+                <span class="method-start">19266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir04stClickBrowePostTag</span>
+                <span class="method-start">19267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir05stClickPostCommentButton</span>
+                <span class="method-start">19267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir06stClickPostLikeButton</span>
+                <span class="method-start">19267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir07stClickPostShareButton</span>
+                <span class="method-start">19268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir08stClickPostShareButton</span>
+                <span class="method-start">19268 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test14EditUserInfoPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stClickModifyUserFace</span>
+                <span class="method-start">19269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickModifyUserFace</span>
+                <span class="method-start">19269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir03stClickModifyUserSex</span>
+                <span class="method-start">19270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir04stClickModifyUserSignature</span>
+                <span class="method-start">19270 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test15UserPostCollectionPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stClickPostShareButton</span>
+                <span class="method-start">19271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickPostUserNickName</span>
+                <span class="method-start">19272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir03stClickBrowePostImages</span>
+                <span class="method-start">19272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir04stClickBrowePostTag</span>
+                <span class="method-start">19272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir05stClickPostCommentButton</span>
+                <span class="method-start">19273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir06stClickPostLikeButton</span>
+                <span class="method-start">19273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir07stClickPostShareButton</span>
+                <span class="method-start">19273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir08stClickCancleCollectionButton</span>
+                <span class="method-start">19274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir09stClickCancleShareButton</span>
+                <span class="method-start">19274 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestFir01stClickUserLabelSubscriptionList</span>
+                <span class="method-start">19275 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir02stClickCancleLabelSubscription</span>
+                <span class="method-start">19275 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir03stClickLabelSubscriptionButton</span>
+                <span class="method-start">19276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestFir04stClickLabelSubscriptionShareButton</span>
+                <span class="method-start">19276 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

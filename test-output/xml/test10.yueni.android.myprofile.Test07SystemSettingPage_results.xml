@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AllTest_03_systemSettingPage"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="96.271">
+  <properties />
+  
+  
+            <testcase name="TestFir12stClickShareAppToFriend" time="3.953" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+                <testcase name="TestFir07stClickImageQualitySetting" time="7.077" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+                <testcase name="TestFir05stClickModifyUserPassword" time="42.547" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+                <testcase name="TestFir03stClickEditUserInfo" time="19.777" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+                <testcase name="TestFir04stOpenModifyUserPasswordPage" time="0.831" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+                <testcase name="TestFir10stInputUserFeedback" time="12.230" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+                <testcase name="TestFir01stClickEditUserInfo" time="1.037" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+                <testcase name="TestFir06stClickOpenMessageCenterSet" time="3.951" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+                <testcase name="TestFir11stClickOpenAboutUs" time="4.037" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+                <testcase name="TestFir09stClickOpenFeedback" time="0.831" classname="test10.yueni.android.myprofile.Test07SystemSettingPage" />
+      
+</testsuite>

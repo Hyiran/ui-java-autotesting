@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AllTest_02_OtherFunctionalPage"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="45.225">
+  <properties />
+  
+  
+            <testcase name="TestFir02stEditReceivingAddress" time="36.813" classname="test10.yueni.android.myprofile.Test11ReceiveAddressPage" />
+                <testcase name="TestFir01stAddReceivingAddress" time="8.412" classname="test10.yueni.android.myprofile.Test11ReceiveAddressPage" />
+      
+</testsuite>

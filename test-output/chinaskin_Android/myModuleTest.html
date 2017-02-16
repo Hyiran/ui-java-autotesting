@@ -1,0 +1,2479 @@
+<html>
+<head>
+<title>TestNG:  myModuleTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>myModuleTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/49</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 09 14:05:20 CST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (482 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test11ReceiveAddressPage.init25PP()'><b>init25PP</b><br>Test class: test10.yueni.android.myprofile.Test11ReceiveAddressPage<br>Parameters: Android, 5.1, 125eadf2, /Users/chinaskin/Desktop/yueniapp-YN_TEST-release.apk, 0.0.0.0, 4723, com.yueniapp.sns, .a.HomeActivity</td>
+<td><div><pre>java.lang.Error: A new session could not be created. (Original error: Bad app: /Users/chinaskin/Desktop/yueniapp-YN_TEST-release.apk. App paths need to be absolute, or relative to the appium server install dir, or a URL to compressed file, or a special app name. cause: Error: Error locating the app: ENOENT: no such file or directory, stat &apos;/Users/chinaskin/Desktop/yueniapp-YN_TEST-release.apk&apos;) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 126 milliseconds
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;chinaskindeiMac.local&apos;, ip: &apos;192.168.145.165&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at net.wanghaifeng.conf.androidLauncherConf.androidDriver(androidLauncherConf.java:34)
+	at net.wanghaifeng.enums.AndroidLauncher$1.execute(AndroidLauncher.java:14)
+	at net.wanghaifeng.com.TestDriverAndroid.init25PP(TestDriverAndroid.java:77)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace70323523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace70323523'><pre>java.lang.Error: A new session could not be created. (Original error: Bad app: /Users/chinaskin/Desktop/yueniapp-YN_TEST-release.apk. App paths need to be absolute, or relative to the appium server install dir, or a URL to compressed file, or a special app name. cause: Error: Error locating the app: ENOENT: no such file or directory, stat &apos;/Users/chinaskin/Desktop/yueniapp-YN_TEST-release.apk&apos;) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 126 milliseconds
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;chinaskindeiMac.local&apos;, ip: &apos;192.168.145.165&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.3&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at net.wanghaifeng.conf.androidLauncherConf.androidDriver(androidLauncherConf.java:34)
+	at net.wanghaifeng.enums.AndroidLauncher$1.execute(AndroidLauncher.java:14)
+	at net.wanghaifeng.com.TestDriverAndroid.init25PP(TestDriverAndroid.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test06.yueni.android.base.Test00AutoTestBase.afterMethod()'><b>afterMethod</b><br>Test class: test06.yueni.android.base.Test00AutoTestBase<br>Parameters: [TestResult name=TestFir01stInitTestData status=SKIP method=Test00AutoTestBase.TestFir01stInitTestData()[pri:0, instance:test06.yueni.android.base.Test00AutoTestBase@6e2c9341] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace14183023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14183023'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test06.yueni.android.base.Test00AutoTestBase@6e2c9341</td></tr>
+<tr>
+<td title='test06.yueni.android.base.Test00AutoTestBase.afterMethod()'><b>afterMethod</b><br>Test class: test06.yueni.android.base.Test00AutoTestBase<br>Parameters: [TestResult name=TestFir02stInitTestApp status=SKIP method=Test00AutoTestBase.TestFir02stInitTestApp()[pri:0, instance:test06.yueni.android.base.Test00AutoTestBase@6e2c9341] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1833789138", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1833789138'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test06.yueni.android.base.Test00AutoTestBase@6e2c9341</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test09UserRegisterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test09UserRegisterPage<br>Parameters: [TestResult name=TestFir01stClickMobileRegisterButton status=SKIP method=Test09UserRegisterPage.TestFir01stClickMobileRegisterButton()[pri:0, instance:test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace45023307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace45023307'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test09UserRegisterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test09UserRegisterPage<br>Parameters: [TestResult name=TestFir02stClickGetVerificationCode status=SKIP method=Test09UserRegisterPage.TestFir02stClickGetVerificationCode()[pri:0, instance:test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1489743810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1489743810'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test09UserRegisterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test09UserRegisterPage<br>Parameters: [TestResult name=TestFir03stSelectUserFace status=SKIP method=Test09UserRegisterPage.TestFir03stSelectUserFace()[pri:0, instance:test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1418555530", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1418555530'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir01stClickExperience status=SKIP method=Test05MyProfilePage.TestFir01stClickExperience()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace95396809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace95396809'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir02stClickOpenUpgraderRule status=SKIP method=Test05MyProfilePage.TestFir02stClickOpenUpgraderRule()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1094523823", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1094523823'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir03stClickSetMyAddress status=SKIP method=Test05MyProfilePage.TestFir03stClickSetMyAddress()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1401316767", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1401316767'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir04stClickBandingNum status=SKIP method=Test05MyProfilePage.TestFir04stClickBandingNum()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace589273327", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace589273327'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir05stClickMenstruationAssistant status=SKIP method=Test05MyProfilePage.TestFir05stClickMenstruationAssistant()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1904783235", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1904783235'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir07stClickMySubscribe status=SKIP method=Test05MyProfilePage.TestFir07stClickMySubscribe()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2032891036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2032891036'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir08stClickMyCollection status=SKIP method=Test05MyProfilePage.TestFir08stClickMyCollection()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace711540569", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace711540569'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir09stClickBindSocailPlatform status=SKIP method=Test05MyProfilePage.TestFir09stClickBindSocailPlatform()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1399794302", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1399794302'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir10stClickSystemSettingPage status=SKIP method=Test05MyProfilePage.TestFir10stClickSystemSettingPage()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1862383967", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1862383967'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Parameters: [TestResult name=TestFir11stClickTestAfterMethod status=SKIP method=Test05MyProfilePage.TestFir11stClickTestAfterMethod()[pri:0, instance:test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2077742806", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2077742806'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test11ReceiveAddressPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test11ReceiveAddressPage<br>Parameters: [TestResult name=TestFir01stAddReceivingAddress status=SKIP method=Test11ReceiveAddressPage.TestFir01stAddReceivingAddress()[pri:0, instance:test10.yueni.android.myprofile.Test11ReceiveAddressPage@58a90037] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1125964210", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1125964210'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test11ReceiveAddressPage@58a90037</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test11ReceiveAddressPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test11ReceiveAddressPage<br>Parameters: [TestResult name=TestFir02stEditReceivingAddress status=SKIP method=Test11ReceiveAddressPage.TestFir02stEditReceivingAddress()[pri:0, instance:test10.yueni.android.myprofile.Test11ReceiveAddressPage@58a90037] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1848125895", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1848125895'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test11ReceiveAddressPage@58a90037</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir01stClickEveryDaySign status=SKIP method=Test06UserCenterPage.TestFir01stClickEveryDaySign()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1263668904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1263668904'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir02stClickAttentionButton status=SKIP method=Test06UserCenterPage.TestFir02stClickAttentionButton()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1863702030", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1863702030'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir03stClickFollowerButton status=SKIP method=Test06UserCenterPage.TestFir03stClickFollowerButton()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace308433917", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace308433917'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir04stClickPostButton status=SKIP method=Test06UserCenterPage.TestFir04stClickPostButton()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1764996806", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1764996806'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir05stClickEditUserInfoButton status=SKIP method=Test06UserCenterPage.TestFir05stClickEditUserInfoButton()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1367937032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1367937032'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir06stClickOpenUserCenterPage status=SKIP method=Test06UserCenterPage.TestFir06stClickOpenUserCenterPage()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace925973605", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace925973605'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir07stClickUserCenterAttentionButton status=SKIP method=Test06UserCenterPage.TestFir07stClickUserCenterAttentionButton()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1848289347", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1848289347'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir08stClickUserCenterAttentionList status=SKIP method=Test06UserCenterPage.TestFir08stClickUserCenterAttentionList()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1236444285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1236444285'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir09stClickUserCenterFollowerButton status=SKIP method=Test06UserCenterPage.TestFir09stClickUserCenterFollowerButton()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1346343363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1346343363'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir10stClickUserCenterFollowerList status=SKIP method=Test06UserCenterPage.TestFir10stClickUserCenterFollowerList()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1885922916", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1885922916'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir11stClickMyFansUserFace status=SKIP method=Test06UserCenterPage.TestFir11stClickMyFansUserFace()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1824837049", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1824837049'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir12stClickAttentionMyFans status=SKIP method=Test06UserCenterPage.TestFir12stClickAttentionMyFans()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1948810915", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1948810915'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir13stClickUserCenterEditUserInfoButton status=SKIP method=Test06UserCenterPage.TestFir13stClickUserCenterEditUserInfoButton()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1423983012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1423983012'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Parameters: [TestResult name=TestFir14stClickTestAfterMethod status=SKIP method=Test06UserCenterPage.TestFir14stClickTestAfterMethod()[pri:0, instance:test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1408482749", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1408482749'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Parameters: [TestResult name=TestFir01stClickModifyUserFace status=SKIP method=Test14EditUserInfoPage.TestFir01stClickModifyUserFace()[pri:0, instance:test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace777457133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace777457133'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Parameters: [TestResult name=TestFir02stClickModifyUserFace status=SKIP method=Test14EditUserInfoPage.TestFir02stClickModifyUserFace()[pri:0, instance:test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1371495133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1371495133'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Parameters: [TestResult name=TestFir03stClickAnPhotoFromUserAlbum status=SKIP method=Test14EditUserInfoPage.TestFir03stClickAnPhotoFromUserAlbum()[pri:0, instance:test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1164799006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1164799006'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Parameters: [TestResult name=TestFir04stClickAfterSelectPhotoToClickNext status=SKIP method=Test14EditUserInfoPage.TestFir04stClickAfterSelectPhotoToClickNext()[pri:0, instance:test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1261198850", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1261198850'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Parameters: [TestResult name=TestFir05stClickModifyUserNickName status=SKIP method=Test14EditUserInfoPage.TestFir05stClickModifyUserNickName()[pri:0, instance:test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26970580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26970580'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Parameters: [TestResult name=TestFir06stClickModifyUserSex status=SKIP method=Test14EditUserInfoPage.TestFir06stClickModifyUserSex()[pri:0, instance:test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace837659261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace837659261'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Parameters: [TestResult name=TestFir07stClickModifyUserSignature status=SKIP method=Test14EditUserInfoPage.TestFir07stClickModifyUserSignature()[pri:0, instance:test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace570794077", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace570794077'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Parameters: [TestResult name=TestFir08stClickModifyUserAddress status=SKIP method=Test14EditUserInfoPage.TestFir08stClickModifyUserAddress()[pri:0, instance:test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace932257672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace932257672'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir01stClickEditUserInfo status=SKIP method=Test07SystemSettingPage.TestFir01stClickEditUserInfo()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace288379405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace288379405'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir02stClickModifyUserPassword status=SKIP method=Test07SystemSettingPage.TestFir02stClickModifyUserPassword()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1241569743", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1241569743'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir03stClickModifyUserPassword status=SKIP method=Test07SystemSettingPage.TestFir03stClickModifyUserPassword()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1201454821", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1201454821'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir04stClickOpenMessageCenterSet status=SKIP method=Test07SystemSettingPage.TestFir04stClickOpenMessageCenterSet()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace330551672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace330551672'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir05stClickImageQualitySetting status=SKIP method=Test07SystemSettingPage.TestFir05stClickImageQualitySetting()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1801942731", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1801942731'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir08stClickOpenFeedback status=SKIP method=Test07SystemSettingPage.TestFir08stClickOpenFeedback()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace765242091", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace765242091'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir09stClickOpenFeedback status=SKIP method=Test07SystemSettingPage.TestFir09stClickOpenFeedback()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace110651474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace110651474'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir10stClickOpenAboutUs status=SKIP method=Test07SystemSettingPage.TestFir10stClickOpenAboutUs()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace335580595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace335580595'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir11stClickShareAppToFriend status=SKIP method=Test07SystemSettingPage.TestFir11stClickShareAppToFriend()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace115433442", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace115433442'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.afterMethod()'><b>afterMethod</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Parameters: [TestResult name=TestFir12stClickUserExitLogout status=SKIP method=Test07SystemSettingPage.TestFir12stClickUserExitLogout()[pri:0, instance:test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6] output={null}]</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1176968662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1176968662'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.remote.Augmenter.extractRemoteWebDriver(Augmenter.java:65)
+	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:110)
+	at net.wanghaifeng.com.PublicStaticMethod.captureScreenShot(PublicStaticMethod.java:132)
+	at net.wanghaifeng.com.TestDriverAndroid.afterMethod(TestDriverAndroid.java:116)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test09UserRegisterPage.OpenInitializationTestPage()'><b>OpenInitializationTestPage</b><br>Test class: test10.yueni.android.myprofile.Test09UserRegisterPage<br>Test method: 测试页面初始化操作</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.OpenInitializationTestPage()'><b>OpenInitializationTestPage</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 个人模块功能页面初始化</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test11ReceiveAddressPage.OpenInitializationTestPage()'><b>OpenInitializationTestPage</b><br>Test class: test10.yueni.android.myprofile.Test11ReceiveAddressPage<br>Test method: 测试页面初始化操作</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test11ReceiveAddressPage@58a90037</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.OpenInitializationTestPage()'><b>OpenInitializationTestPage</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 用户中心模块页面初始化</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.OpenInitializationTestPage()'><b>OpenInitializationTestPage</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 测试页面初始化操作</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.OpenInitializationTestPage()'><b>OpenInitializationTestPage</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 系统设置页面初始化操作</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test06.yueni.android.base.Test00AutoTestBase.ResetTestApplication()'><b>ResetTestApplication</b><br>Test class: test06.yueni.android.base.Test00AutoTestBase<br>Test method: 重置测试应用</td>
+<td></td>
+<td>0</td>
+<td>test06.yueni.android.base.Test00AutoTestBase@6e2c9341</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test09UserRegisterPage.ResetTestApplication()'><b>ResetTestApplication</b><br>Test class: test10.yueni.android.myprofile.Test09UserRegisterPage<br>Test method: 重置测试应用</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.ResetTestApplication()'><b>ResetTestApplication</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 重置测试应用</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test11ReceiveAddressPage.ResetTestApplication()'><b>ResetTestApplication</b><br>Test class: test10.yueni.android.myprofile.Test11ReceiveAddressPage<br>Test method: 重置测试应用</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test11ReceiveAddressPage@58a90037</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.ResetTestApplication()'><b>ResetTestApplication</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 重置测试应用</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.ResetTestApplication()'><b>ResetTestApplication</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 重置测试应用</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.ResetTestApplication()'><b>ResetTestApplication</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 重置测试应用</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test06.yueni.android.base.Test00AutoTestBase.TestFir03stRunCompareLogFileTest()'><b>TestFir03stRunCompareLogFileTest</b><br>Test class: test06.yueni.android.base.Test00AutoTestBase<br>Test method: 测试用例执行结束</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test11ReceiveAddressPage.TestFir01stAddReceivingAddress()'><b>TestFir01stAddReceivingAddress</b><br>Test class: test10.yueni.android.myprofile.Test11ReceiveAddressPage<br>Test method: 点击进入编辑我的收货地址</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test11ReceiveAddressPage@58a90037</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir01stClickEditUserInfo()'><b>TestFir01stClickEditUserInfo</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 点击编辑个人资料</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir01stClickEveryDaySign()'><b>TestFir01stClickEveryDaySign</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击用户签到按钮</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir01stClickExperience()'><b>TestFir01stClickExperience</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 点击打开我的经验值</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test09UserRegisterPage.TestFir01stClickMobileRegisterButton()'><b>TestFir01stClickMobileRegisterButton</b><br>Test class: test10.yueni.android.myprofile.Test09UserRegisterPage<br>Test method: 点击注册按钮打开注册页面</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.TestFir01stClickModifyUserFace()'><b>TestFir01stClickModifyUserFace</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 点击修改用户头像</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test06.yueni.android.base.Test00AutoTestBase.TestFir01stInitTestData()'><b>TestFir01stInitTestData</b><br>Test class: test06.yueni.android.base.Test00AutoTestBase<br>Test method: 初始化测试数据</td>
+<td></td>
+<td>0</td>
+<td>test06.yueni.android.base.Test00AutoTestBase@6e2c9341</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir02stClickAttentionButton()'><b>TestFir02stClickAttentionButton</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击用户关注功能</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test09UserRegisterPage.TestFir02stClickGetVerificationCode()'><b>TestFir02stClickGetVerificationCode</b><br>Test class: test10.yueni.android.myprofile.Test09UserRegisterPage<br>Test method: 输入手机号码并点击注册</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.TestFir02stClickModifyUserFace()'><b>TestFir02stClickModifyUserFace</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 点击从相册中选取相片</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir02stClickModifyUserPassword()'><b>TestFir02stClickModifyUserPassword</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 打开修改用户密码页面</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir02stClickOpenUpgraderRule()'><b>TestFir02stClickOpenUpgraderRule</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 点击打开升级规则</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test11ReceiveAddressPage.TestFir02stEditReceivingAddress()'><b>TestFir02stEditReceivingAddress</b><br>Test class: test10.yueni.android.myprofile.Test11ReceiveAddressPage<br>Test method: 编辑并保存收货地址</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test11ReceiveAddressPage@58a90037</td></tr>
+<tr>
+<td title='test06.yueni.android.base.Test00AutoTestBase.TestFir02stInitTestApp()'><b>TestFir02stInitTestApp</b><br>Test class: test06.yueni.android.base.Test00AutoTestBase<br>Test method: 初始化测试应用</td>
+<td></td>
+<td>0</td>
+<td>test06.yueni.android.base.Test00AutoTestBase@6e2c9341</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.TestFir03stClickAnPhotoFromUserAlbum()'><b>TestFir03stClickAnPhotoFromUserAlbum</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 点击选中一个图片</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir03stClickFollowerButton()'><b>TestFir03stClickFollowerButton</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 打开用户粉丝页面</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir03stClickModifyUserPassword()'><b>TestFir03stClickModifyUserPassword</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 修改用户密码</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir03stClickSetMyAddress()'><b>TestFir03stClickSetMyAddress</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 点击打开我的收货地址</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test09UserRegisterPage.TestFir03stSelectUserFace()'><b>TestFir03stSelectUserFace</b><br>Test class: test10.yueni.android.myprofile.Test09UserRegisterPage<br>Test method: 选择用户头像并点击保存</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test09UserRegisterPage@32464a14</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.TestFir04stClickAfterSelectPhotoToClickNext()'><b>TestFir04stClickAfterSelectPhotoToClickNext</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 选好头像后点击下一步</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir04stClickBandingNum()'><b>TestFir04stClickBandingNum</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 点击打开我绑定的手机号码</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir04stClickOpenMessageCenterSet()'><b>TestFir04stClickOpenMessageCenterSet</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 点击消息中心设置</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir04stClickPostButton()'><b>TestFir04stClickPostButton</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 打开用户帖子页面</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir05stClickEditUserInfoButton()'><b>TestFir05stClickEditUserInfoButton</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击编辑用户资料功能</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir05stClickImageQualitySetting()'><b>TestFir05stClickImageQualitySetting</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 点击图片质量设置</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir05stClickMenstruationAssistant()'><b>TestFir05stClickMenstruationAssistant</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 点击打开姨妈助手</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.TestFir05stClickModifyUserNickName()'><b>TestFir05stClickModifyUserNickName</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 点击修改用户妮称</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.TestFir06stClickModifyUserSex()'><b>TestFir06stClickModifyUserSex</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 点击修改用户性别</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir06stClickOpenUserCenterPage()'><b>TestFir06stClickOpenUserCenterPage</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 打开用户中心页面</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.TestFir07stClickModifyUserSignature()'><b>TestFir07stClickModifyUserSignature</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 点击修改用户个性签名</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir07stClickMySubscribe()'><b>TestFir07stClickMySubscribe</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 点击打开我订阅的标签</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir07stClickUserCenterAttentionButton()'><b>TestFir07stClickUserCenterAttentionButton</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击用户中心关注按钮</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test14EditUserInfoPage.TestFir08stClickModifyUserAddress()'><b>TestFir08stClickModifyUserAddress</b><br>Test class: test10.yueni.android.myprofile.Test14EditUserInfoPage<br>Test method: 点击修改用户所在地</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test14EditUserInfoPage@4e4aea35</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir08stClickMyCollection()'><b>TestFir08stClickMyCollection</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 点击打开我的收藏</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir08stClickOpenFeedback()'><b>TestFir08stClickOpenFeedback</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 打开意见反馈</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir08stClickUserCenterAttentionList()'><b>TestFir08stClickUserCenterAttentionList</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击用户中心关注列表用户</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir09stClickBindSocailPlatform()'><b>TestFir09stClickBindSocailPlatform</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 点击打开绑定社交平台</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir09stClickOpenFeedback()'><b>TestFir09stClickOpenFeedback</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 输入并点击提交意见反馈</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir09stClickUserCenterFollowerButton()'><b>TestFir09stClickUserCenterFollowerButton</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击用户中心粉丝按钮</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir10stClickOpenAboutUs()'><b>TestFir10stClickOpenAboutUs</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 点击关于我们</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir10stClickSystemSettingPage()'><b>TestFir10stClickSystemSettingPage</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 点击打开系统设置</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir10stClickUserCenterFollowerList()'><b>TestFir10stClickUserCenterFollowerList</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击用户中心粉丝用户列表</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir11stClickMyFansUserFace()'><b>TestFir11stClickMyFansUserFace</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击查看用户中心粉丝用户头像</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir11stClickShareAppToFriend()'><b>TestFir11stClickShareAppToFriend</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 测试分享瓷肌给好友</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test05MyProfilePage.TestFir11stClickTestAfterMethod()'><b>TestFir11stClickTestAfterMethod</b><br>Test class: test10.yueni.android.myprofile.Test05MyProfilePage<br>Test method: 我是三年二班的王同学</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test05MyProfilePage@1442d7b5</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir12stClickAttentionMyFans()'><b>TestFir12stClickAttentionMyFans</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击关注我的粉丝用户</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test07SystemSettingPage.TestFir12stClickUserExitLogout()'><b>TestFir12stClickUserExitLogout</b><br>Test class: test10.yueni.android.myprofile.Test07SystemSettingPage<br>Test method: 点击退出当前用户</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test07SystemSettingPage@1ee807c6</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir13stClickUserCenterEditUserInfoButton()'><b>TestFir13stClickUserCenterEditUserInfoButton</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 点击用户中心编辑资料功能</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+<tr>
+<td title='test10.yueni.android.myprofile.Test06UserCenterPage.TestFir14stClickTestAfterMethod()'><b>TestFir14stClickTestAfterMethod</b><br>Test class: test10.yueni.android.myprofile.Test06UserCenterPage<br>Test method: 我是三年三班的周同学</td>
+<td></td>
+<td>0</td>
+<td>test10.yueni.android.myprofile.Test06UserCenterPage@1efee8e7</td></tr>
+</table><p>
+</body>
+</html>

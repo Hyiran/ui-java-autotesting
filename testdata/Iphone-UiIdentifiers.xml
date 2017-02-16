@@ -1,0 +1,38 @@
+<Mypage>
+	<usernameTextField type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</usernameTextField>
+	<passwordTextField type="xpath">//UIAApplication[1]/UIAWindow[1]/UIASecureTextField[1]</passwordTextField>
+	<newPasswordTextField type="xpath">//UIAApplication[1]/UIAWindow[1]/UIASecureTextField[2]</newPasswordTextField>
+	<verificationCode type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATextField[2]</verificationCode>	
+	<selectUserFace type="xpath">//UIAApplication[1]/UIAWindow[1]/UIAButton[1]</selectUserFace>
+	<selectUserPhoto type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]</selectUserPhoto>
+	<lookSetMore type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIAButton[1]</lookSetMore>
+	
+	<lookUserPost type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIAButton[2]</lookUserPost>
+	<getMyPublishPost type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIAStaticText[1]</getMyPublishPost>
+	<postListTableView type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]</postListTableView>
+	
+	<lookAttention type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIAButton[3]</lookAttention>
+	<lookFollower type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIAButton[4]</lookFollower>
+	
+	<lookUserVirtureName type="xpath"> //UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIAStaticText[1]</lookUserVirtureName>
+	<clickBack type="xpath">//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</clickBack>
+	
+	<clickEveryDaySign type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[2]</clickEveryDaySign>
+	<clickMyExperience type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[3]</clickMyExperience>
+	
+	<clickMyBandingNum type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[6]</clickMyBandingNum>
+	
+	<clickPeriodAnalysis type="xpath">//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[3]</clickPeriodAnalysis>
+	<clickPreMenstruation type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]</clickPreMenstruation>
+	<clickPreMonthMens type="xpath">//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAButton[1]</clickPreMonthMens>
+	<clickNextMonthMens type="xpath">//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAButton[1]</clickNextMonthMens>
+	
+	
+	<editReceivingAddressName type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</editReceivingAddressName>
+	<editReceivingAddressNum type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATextField[2]</editReceivingAddressNum>
+	<editRecevingAddressCode type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATextField[3]</editRecevingAddressCode>
+	<editReceivingAddress type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATextView[1]</editReceivingAddress>
+	<editRecevingAddressArea type="xpath">//UIAApplication[1]/UIAWindow[1]/UIAButton[1]</editRecevingAddressArea>
+	
+	
+</Mypage>

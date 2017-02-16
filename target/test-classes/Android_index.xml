@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="chinaskin_iPhone:首页模块" thread-count="1">
+	 <parameter name ="platformName" value = "Android"/>
+	 <parameter name = "platformVersion" value= "5.1.1"/>
+	 <parameter name = "deviceName" value= "125eadf2"/>
+	 <parameter name = "app-package" value= "com.yueniapp.sns"/>
+	 <parameter name = "app-activity" value= ".a.SplashActivity"/>
+	 <parameter name = "app" value = "/Users/chinaskin/Desktop/yueniapp-YN_TEST-release-v2.4.0.apk" />
+	 <parameter name = "serverip" value= "0.0.0.0" />
+	 <parameter name = "port" value = "4723"/>
+	 <parameter name = "device_type" value = "android"/>
+	 	 
+	<test name = "indexModuleTest" enabled = "true">
+        <classes>
+        	<class name="test06.yueni.android.base.Test01IndexPage"/>
+		</classes>
+	</test>
+	 
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	
+	<usedefaultlisteners name="true"/>
+
+</suite>

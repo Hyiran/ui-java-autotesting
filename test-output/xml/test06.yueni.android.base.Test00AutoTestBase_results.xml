@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AllTest_01_MyProfilePage"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.742">
+  <properties />
+  
+  
+            <testcase name="TestFir02stInitTestApp" time="0.001" classname="test06.yueni.android.base.Test00AutoTestBase" />
+                <testcase name="TestFir01stInitTestData" time="0.741" classname="test06.yueni.android.base.Test00AutoTestBase" />
+      
+</testsuite>

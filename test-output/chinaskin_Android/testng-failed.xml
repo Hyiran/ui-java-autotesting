@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [chinaskin_Android]">
+  <parameter name="app" value="/Users/chinaskin/Desktop/yueniapp-YN_TEST-x86-debug.apk"/>
+  <parameter name="port" value="4723"/>
+  <parameter name="platformVersion" value="5.1"/>
+  <parameter name="app-package" value="com.yueniapp.sns"/>
+  <parameter name="app-activity" value=".a.HomeActivity"/>
+  <parameter name="serverip" value="0.0.0.0"/>
+  <parameter name="device_type" value="android"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="125eadf2"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="AllTest_02_UserCenterPage(failed)">
+    <classes>
+      <class name="test10.yueni.android.myprofile.Test11ReceiveAddressPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="ResetTestApplication"/>
+          <include name="OpenInitializationTestPage"/>
+        </methods>
+      </class> <!-- test10.yueni.android.myprofile.Test11ReceiveAddressPage -->
+      <class name="test06.yueni.android.base.Test00AutoTestBase">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="TestFir03stRunCompareLogFileTest"/>
+          <include name="ResetTestApplication"/>
+        </methods>
+      </class> <!-- test06.yueni.android.base.Test00AutoTestBase -->
+      <class name="test10.yueni.android.myprofile.Test12MenstruationAssistantPage">
+        <methods>
+          <include name="OpenInitializationTestPage"/>
+          <include name="afterMethod"/>
+          <include name="ResetTestApplication"/>
+        </methods>
+      </class> <!-- test10.yueni.android.myprofile.Test12MenstruationAssistantPage -->
+      <class name="test10.yueni.android.myprofile.Test09UserRegisterPage">
+        <methods>
+          <include name="OpenInitializationTestPage"/>
+          <include name="afterMethod"/>
+          <include name="ResetTestApplication"/>
+        </methods>
+      </class> <!-- test10.yueni.android.myprofile.Test09UserRegisterPage -->
+      <class name="test10.yueni.android.myprofile.Test05MyProfilePage">
+        <methods>
+          <include name="TestFir00stOpenMyprofilePage"/>
+          <include name="afterMethod"/>
+          <include name="ResetTestApplication"/>
+        </methods>
+      </class> <!-- test10.yueni.android.myprofile.Test05MyProfilePage -->
+      <class name="test10.yueni.android.myprofile.Test14EditUserInfoPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="OpenInitializationTestPage"/>
+          <include name="ResetTestApplication"/>
+        </methods>
+      </class> <!-- test10.yueni.android.myprofile.Test14EditUserInfoPage -->
+      <class name="test10.yueni.android.myprofile.Test10ForgetPasswordPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="ResetTestApplication"/>
+          <include name="OpenInitializationTestPage"/>
+        </methods>
+      </class> <!-- test10.yueni.android.myprofile.Test10ForgetPasswordPage -->
+      <class name="test10.yueni.android.myprofile.Test06UserCenterPage">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="TestFir10stClickUserCenterFollowerList"/>
+          <include name="TestFir12stClickAttentionMyFans"/>
+          <include name="ResetTestApplication"/>
+          <include name="TestFir13stClickUserCenterEditUserInfoButton"/>
+          <include name="OpenInitializationTestPage"/>
+          <include name="TestFir11stClickMyFansUserFace"/>
+        </methods>
+      </class> <!-- test10.yueni.android.myprofile.Test06UserCenterPage -->
+      <class name="test10.yueni.android.myprofile.Test07SystemSettingPage">
+        <methods>
+          <include name="TestFir00stOpenMyprofileAndSettingPage"/>
+          <include name="afterMethod"/>
+          <include name="ResetTestApplication"/>
+        </methods>
+      </class> <!-- test10.yueni.android.myprofile.Test07SystemSettingPage -->
+    </classes>
+  </test> <!-- AllTest_02_UserCenterPage(failed) -->
+</suite> <!-- Failed suite [chinaskin_Android] -->

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="71" failed="0" total="71" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="chinaskin_iPhone" duration-ms="19191" started-at="2016-08-03T07:48:02Z" finished-at="2016-08-03T07:48:21Z">
+    <groups>
+    </groups>
+    <test name="ChinaSkinAllTestCase" duration-ms="19191" started-at="2016-08-03T07:48:02Z" finished-at="2016-08-03T07:48:21Z">
+      <class name="test05.yueni.ios.myprofile.Test08UserLoginPage">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test05.yueni.ios.myprofile.Test08UserLoginPage@101df177]" name="beforeSuite" is-config="true" duration-ms="86" started-at="2016-08-03T15:48:02Z" finished-at="2016-08-03T15:48:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone6p]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[a4ba1247eb17079858e6bd1cc8ae78360b06cf0b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.yueniapp.sns]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.0.0.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="FAIL" signature="launchTestApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test05.yueni.ios.myprofile.Test08UserLoginPage@101df177]" name="launchTestApp" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:02Z" finished-at="2016-08-03T15:48:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone6p]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[a4ba1247eb17079858e6bd1cc8ae78360b06cf0b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.yueniapp.sns]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.0.0.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[A new session could not be created. (Original error: Bad response from getTreeForXML. Err was undefined and res was undefined) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18.86 seconds
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'chinaskindeiMac.local', ip: '192.168.145.165', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_51'
+Driver info: io.appium.java_client.ios.IOSDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: A new session could not be created. (Original error: Bad response from getTreeForXML. Err was undefined and res was undefined) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18.86 seconds
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'chinaskindeiMac.local', ip: '192.168.145.165', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.3', java.version: '1.8.0_51'
+Driver info: io.appium.java_client.ios.IOSDriver
+	at net.wanghaifeng.conf.iOSLauncherConf.iosDriver(iOSLauncherConf.java:34)
+	at net.wanghaifeng.enums.IOSLauncher$1.execute(IOSLauncher.java:13)
+	at net.wanghaifeng.com.TestDriverIOS.launchTestApp(TestDriverIOS.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTestApp -->
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test08UserLoginPage@101df177]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir01stClickUserRegisterButton()[pri:0, instance:test05.yueni.ios.myprofile.Test08UserLoginPage@101df177]" name="TestFir01stClickUserRegisterButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击手机注册按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stClickUserRegisterButton -->
+        <test-method status="SKIP" signature="TestFir02stClickUserForgetPassword()[pri:0, instance:test05.yueni.ios.myprofile.Test08UserLoginPage@101df177]" name="TestFir02stClickUserForgetPassword" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击忘记密码按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickUserForgetPassword -->
+        <test-method status="SKIP" signature="TestFir03stClickUserLoginButton()[pri:0, instance:test05.yueni.ios.myprofile.Test08UserLoginPage@101df177]" name="TestFir03stClickUserLoginButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="进行用户登录操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir03stClickUserLoginButton -->
+      </class> <!-- test05.yueni.ios.myprofile.Test08UserLoginPage -->
+      <class name="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+        <test-method status="SKIP" signature="TestFir01stClickPostShareButton()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="TestFir01stClickPostShareButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击查看帖子详情" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stClickPostShareButton -->
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir02stClickPostUserNickName()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="TestFir02stClickPostUserNickName" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击帖子用户昵称" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickPostUserNickName -->
+        <test-method status="SKIP" signature="TestFir03stClickBrowePostImages()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="TestFir03stClickBrowePostImages" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击浏览帖子图片" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir03stClickBrowePostImages -->
+        <test-method status="SKIP" signature="TestFir04stClickBrowePostTag()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="TestFir04stClickBrowePostTag" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击帖子的标签" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir04stClickBrowePostTag -->
+        <test-method status="SKIP" signature="TestFir06stClickPostLikeButton()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="TestFir06stClickPostLikeButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击帖子点赞按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir06stClickPostLikeButton -->
+        <test-method status="SKIP" signature="TestFir07stClickPostShareButton()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="TestFir07stClickPostShareButton" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击帖子分享按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir07stClickPostShareButton -->
+        <test-method status="SKIP" signature="TestFir05stClickPostCommentButton()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="TestFir05stClickPostCommentButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击帖子评论按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir05stClickPostCommentButton -->
+        <test-method status="SKIP" signature="TestFir09stClickCancleShareButton()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="TestFir09stClickCancleShareButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="在分享页面点击取消分享按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir09stClickCancleShareButton -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+        <test-method status="SKIP" signature="TestFir08stClickCancleCollectionButton()[pri:0, instance:test05.yueni.ios.myprofile.Test15UserPostCollectionPage@45afc369]" name="TestFir08stClickCancleCollectionButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击分享功能中的取消收藏帖子按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir08stClickCancleCollectionButton -->
+      </class> <!-- test05.yueni.ios.myprofile.Test15UserPostCollectionPage -->
+      <class name="test05.yueni.ios.myprofile.Test10ForgetPasswordPage">
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test10ForgetPasswordPage@32cf48b7]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir01stCommitUserRegister()[pri:0, instance:test05.yueni.ios.myprofile.Test10ForgetPasswordPage@32cf48b7]" name="TestFir01stCommitUserRegister" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="重新设置新密码" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stCommitUserRegister -->
+        <test-method status="SKIP" signature="TestFir02stClickLoginButton()[pri:0, instance:test05.yueni.ios.myprofile.Test10ForgetPasswordPage@32cf48b7]" name="TestFir02stClickLoginButton" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="用新密码重新登录" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickLoginButton -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test10ForgetPasswordPage@32cf48b7]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+      </class> <!-- test05.yueni.ios.myprofile.Test10ForgetPasswordPage -->
+      <class name="test05.yueni.ios.myprofile.Test06UserCenterPage">
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="页面初始化" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir02stClickEveryDaySign()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir02stClickEveryDaySign" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击用户签到按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickEveryDaySign -->
+        <test-method status="SKIP" signature="TestFir01stClickLookUserPhoto()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir01stClickLookUserPhoto" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="查看用户头像" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stClickLookUserPhoto -->
+        <test-method status="SKIP" signature="TestFir03stClickAttentionButton()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir03stClickAttentionButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击我的关注列表" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir03stClickAttentionButton -->
+        <test-method status="SKIP" signature="TestFir04stClickFollowerButton()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir04stClickFollowerButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="打开我的粉丝页面" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir04stClickFollowerButton -->
+        <test-method status="SKIP" signature="TestFir05stClickPostButton()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir05stClickPostButton" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="打开我的帖子列表页面" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir05stClickPostButton -->
+        <test-method status="SKIP" signature="TestFir06stClickEditUserInfoButton()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir06stClickEditUserInfoButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击编辑用户资料功能" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir06stClickEditUserInfoButton -->
+        <test-method status="SKIP" signature="TestFir07stClickOpenUserCenterPage()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir07stClickOpenUserCenterPage" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="打开用户中心帖子列表页面" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir07stClickOpenUserCenterPage -->
+        <test-method status="SKIP" signature="TestFir08stClickUserCenterAttentionButton()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir08stClickUserCenterAttentionButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击用户中心关注按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir08stClickUserCenterAttentionButton -->
+        <test-method status="SKIP" signature="TestFir10stClickUserCenterEditUserInfoButton()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir10stClickUserCenterEditUserInfoButton" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击用户中心编辑资料功能" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir10stClickUserCenterEditUserInfoButton -->
+        <test-method status="SKIP" signature="TestFir09stClickUserCenterFollowerButton()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="TestFir09stClickUserCenterFollowerButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击用户中心粉丝按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir09stClickUserCenterFollowerButton -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test06UserCenterPage@69a10787]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+      </class> <!-- test05.yueni.ios.myprofile.Test06UserCenterPage -->
+      <class name="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir02stClickModifyUserPassword()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir02stClickModifyUserPassword" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="打开修改用户密码页面" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickModifyUserPassword -->
+        <test-method status="SKIP" signature="TestFir01stClickEditUserInfo()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir01stClickEditUserInfo" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击编辑个人资料" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stClickEditUserInfo -->
+        <test-method status="SKIP" signature="TestFir04stClickOpenMessageCenterSet()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir04stClickOpenMessageCenterSet" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击消息中心设置" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir04stClickOpenMessageCenterSet -->
+        <test-method status="SKIP" signature="TestFir03stClickModifyUserPassword()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir03stClickModifyUserPassword" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="修改用户密码" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir03stClickModifyUserPassword -->
+        <test-method status="SKIP" signature="TestFir05stClickImageQualitySetting()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir05stClickImageQualitySetting" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击图片质量设置" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir05stClickImageQualitySetting -->
+        <test-method status="SKIP" signature="TestFir06stClickCleanCacheData()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir06stClickCleanCacheData" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击清理缓存数据" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir06stClickCleanCacheData -->
+        <test-method status="SKIP" signature="TestFir07stClickOpenCHASKINSkill()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir07stClickOpenCHASKINSkill" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击瓷肌小技巧" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir07stClickOpenCHASKINSkill -->
+        <test-method status="SKIP" signature="TestFir08stClickOpenFeedback()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir08stClickOpenFeedback" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="打开意见反馈" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir08stClickOpenFeedback -->
+        <test-method status="SKIP" signature="TestFir09stClickOpenFeedback()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir09stClickOpenFeedback" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="输入并点击提交意见反馈" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir09stClickOpenFeedback -->
+        <test-method status="SKIP" signature="TestFir10stClickOpenAboutUs()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir10stClickOpenAboutUs" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击关于我们" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir10stClickOpenAboutUs -->
+        <test-method status="SKIP" signature="TestFir12stClickUserExitLogout()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir12stClickUserExitLogout" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击退出当前用户" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir12stClickUserExitLogout -->
+        <test-method status="SKIP" signature="TestFir11stClickShareAppToFriend()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="TestFir11stClickShareAppToFriend" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试分享瓷肌给好友" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir11stClickShareAppToFriend -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test07SystemSettingPage@6cc7b4de]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+      </class> <!-- test05.yueni.ios.myprofile.Test07SystemSettingPage -->
+      <class name="test05.yueni.ios.myprofile.Test05MyProfilePage">
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir01stClickExperience()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="TestFir01stClickExperience" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击打开我的经验值" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stClickExperience -->
+        <test-method status="SKIP" signature="TestFir02stClickSetMyAddress()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="TestFir02stClickSetMyAddress" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击打开我的收货地址" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickSetMyAddress -->
+        <test-method status="SKIP" signature="TestFir03stClickBandingNum()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="TestFir03stClickBandingNum" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击打开我绑定的手机号码" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir03stClickBandingNum -->
+        <test-method status="SKIP" signature="TestFir04stClickMenstruationAssistant()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="TestFir04stClickMenstruationAssistant" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击打开姨妈助手" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir04stClickMenstruationAssistant -->
+        <test-method status="SKIP" signature="TestFir05stClickMySubscribe()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="TestFir05stClickMySubscribe" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击打开我订阅的标签" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir05stClickMySubscribe -->
+        <test-method status="SKIP" signature="TestFir06stClickMyCollection()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="TestFir06stClickMyCollection" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击打开我的收藏" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir06stClickMyCollection -->
+        <test-method status="SKIP" signature="TestFir07stClickBindSocailPlatform()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="TestFir07stClickBindSocailPlatform" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击打开绑定社交平台" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir07stClickBindSocailPlatform -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+        <test-method status="SKIP" signature="TestFir08stClickSystemSettingPage()[pri:0, instance:test05.yueni.ios.myprofile.Test05MyProfilePage@799d4f69]" name="TestFir08stClickSystemSettingPage" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击打开系统设置" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir08stClickSystemSettingPage -->
+      </class> <!-- test05.yueni.ios.myprofile.Test05MyProfilePage -->
+      <class name="test05.yueni.ios.myprofile.Test13UserPostCenterPage">
+        <test-method status="SKIP" signature="TestFir01stOpenUserCenterPostDetail()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="TestFir01stOpenUserCenterPostDetail" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="打开用户帖子详情" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stOpenUserCenterPostDetail -->
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir02stClickPostUserNickName()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="TestFir02stClickPostUserNickName" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击帖子用户昵称" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickPostUserNickName -->
+        <test-method status="SKIP" signature="TestFir03stClickBrowePostImages()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="TestFir03stClickBrowePostImages" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击浏览帖子图片" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir03stClickBrowePostImages -->
+        <test-method status="SKIP" signature="TestFir05stClickPostCommentButton()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="TestFir05stClickPostCommentButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击帖子评论按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir05stClickPostCommentButton -->
+        <test-method status="SKIP" signature="TestFir04stClickBrowePostTag()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="TestFir04stClickBrowePostTag" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击帖子的标签" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir04stClickBrowePostTag -->
+        <test-method status="SKIP" signature="TestFir06stClickPostLikeButton()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="TestFir06stClickPostLikeButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击帖子点赞按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir06stClickPostLikeButton -->
+        <test-method status="SKIP" signature="TestFir07stClickPostShareButton()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="TestFir07stClickPostShareButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击帖子分享按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir07stClickPostShareButton -->
+        <test-method status="SKIP" signature="TestFir08stClickPostShareButton()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="TestFir08stClickPostShareButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击分享功能中的删除帖子按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir08stClickPostShareButton -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test13UserPostCenterPage@17776a8]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+      </class> <!-- test05.yueni.ios.myprofile.Test13UserPostCenterPage -->
+      <class name="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage">
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage@2d127a61]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir02stClickCancleLabelSubscription()[pri:0, instance:test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage@2d127a61]" name="TestFir02stClickCancleLabelSubscription" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击取消订阅标签按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickCancleLabelSubscription -->
+        <test-method status="SKIP" signature="TestFir01stClickUserLabelSubscriptionList()[pri:0, instance:test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage@2d127a61]" name="TestFir01stClickUserLabelSubscriptionList" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击我订阅的标签" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stClickUserLabelSubscriptionList -->
+        <test-method status="SKIP" signature="TestFir04stClickLabelSubscriptionShareButton()[pri:0, instance:test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage@2d127a61]" name="TestFir04stClickLabelSubscriptionShareButton" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击订阅标签分享按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir04stClickLabelSubscriptionShareButton -->
+        <test-method status="SKIP" signature="TestFir03stClickLabelSubscriptionButton()[pri:0, instance:test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage@2d127a61]" name="TestFir03stClickLabelSubscriptionButton" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击订阅标签按钮" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir03stClickLabelSubscriptionButton -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage@2d127a61]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+      </class> <!-- test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage -->
+      <class name="test00.yueni.ios.base.Test00AutoTestBase">
+        <test-method status="SKIP" signature="TestFir01stInitTestData()[pri:0, instance:test00.yueni.ios.base.Test00AutoTestBase@679b62af]" name="TestFir01stInitTestData" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="初始化测试数据" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stInitTestData -->
+        <test-method status="SKIP" signature="TestFir02stInitTestApp()[pri:0, instance:test00.yueni.ios.base.Test00AutoTestBase@679b62af]" name="TestFir02stInitTestApp" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="初始化测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stInitTestApp -->
+        <test-method status="SKIP" signature="TestFir06stRunCompareLogFileTest()[pri:0, instance:test00.yueni.ios.base.Test00AutoTestBase@679b62af]" name="TestFir06stRunCompareLogFileTest" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试用例执行结束" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir06stRunCompareLogFileTest -->
+      </class> <!-- test00.yueni.ios.base.Test00AutoTestBase -->
+      <class name="test05.yueni.ios.myprofile.Test11ReceiveAddressPage">
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test11ReceiveAddressPage@12028586]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir01stAddReceivingAddress()[pri:0, instance:test05.yueni.ios.myprofile.Test11ReceiveAddressPage@12028586]" name="TestFir01stAddReceivingAddress" duration-ms="2" started-at="2016-08-03T15:48:21Z" description="新增我的收货地址" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stAddReceivingAddress -->
+        <test-method status="SKIP" signature="TestFir02stEditReceivingAddress()[pri:0, instance:test05.yueni.ios.myprofile.Test11ReceiveAddressPage@12028586]" name="TestFir02stEditReceivingAddress" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="编辑并保存收货地址" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stEditReceivingAddress -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test11ReceiveAddressPage@12028586]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+      </class> <!-- test05.yueni.ios.myprofile.Test11ReceiveAddressPage -->
+      <class name="test05.yueni.ios.myprofile.Test12MenstruationAssistantPage">
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test12MenstruationAssistantPage@5cdd8682]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir01stSetMenstruationAssitant()[pri:0, instance:test05.yueni.ios.myprofile.Test12MenstruationAssistantPage@5cdd8682]" name="TestFir01stSetMenstruationAssitant" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击设置姨妈助手" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stSetMenstruationAssitant -->
+        <test-method status="SKIP" signature="TestFir02stClickModifyMenstruationPara()[pri:0, instance:test05.yueni.ios.myprofile.Test12MenstruationAssistantPage@5cdd8682]" name="TestFir02stClickModifyMenstruationPara" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击修改姨妈经期参数" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickModifyMenstruationPara -->
+        <test-method status="SKIP" signature="TestFir04stClickMenstruationAnalysis()[pri:0, instance:test05.yueni.ios.myprofile.Test12MenstruationAssistantPage@5cdd8682]" name="TestFir04stClickMenstruationAnalysis" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击经期分析" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir04stClickMenstruationAnalysis -->
+        <test-method status="SKIP" signature="TestFir03stOpenMenstruationCalendar()[pri:0, instance:test05.yueni.ios.myprofile.Test12MenstruationAssistantPage@5cdd8682]" name="TestFir03stOpenMenstruationCalendar" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击进入经期日历" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir03stOpenMenstruationCalendar -->
+        <test-method status="SKIP" signature="TestFir05stBrowseMenstruation()[pri:0, instance:test05.yueni.ios.myprofile.Test12MenstruationAssistantPage@5cdd8682]" name="TestFir05stBrowseMenstruation" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="左右浏览不同月份经期" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir05stBrowseMenstruation -->
+        <test-method status="SKIP" signature="TestFir06stClickBackNowMonth()[pri:0, instance:test05.yueni.ios.myprofile.Test12MenstruationAssistantPage@5cdd8682]" name="TestFir06stClickBackNowMonth" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="回到当前经期月份" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir06stClickBackNowMonth -->
+        <test-method status="SKIP" signature="TestFir07stClickUpdateMenstruationCalendar()[pri:0, instance:test05.yueni.ios.myprofile.Test12MenstruationAssistantPage@5cdd8682]" name="TestFir07stClickUpdateMenstruationCalendar" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击更新月经日历" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir07stClickUpdateMenstruationCalendar -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test12MenstruationAssistantPage@5cdd8682]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+      </class> <!-- test05.yueni.ios.myprofile.Test12MenstruationAssistantPage -->
+      <class name="test05.yueni.ios.myprofile.Test14EditUserInfoPage">
+        <test-method status="SKIP" signature="TestFir02stClickModifyUserFace()[pri:0, instance:test05.yueni.ios.myprofile.Test14EditUserInfoPage@290dbf45]" name="TestFir02stClickModifyUserFace" duration-ms="1" started-at="2016-08-03T15:48:21Z" description="点击修改用户妮称" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir02stClickModifyUserFace -->
+        <test-method status="SKIP" signature="OpenInitializationTestPage()[pri:0, instance:test05.yueni.ios.myprofile.Test14EditUserInfoPage@290dbf45]" name="OpenInitializationTestPage" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="测试页面初始化操作" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInitializationTestPage -->
+        <test-method status="SKIP" signature="TestFir01stClickModifyUserFace()[pri:0, instance:test05.yueni.ios.myprofile.Test14EditUserInfoPage@290dbf45]" name="TestFir01stClickModifyUserFace" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击修改用户头像" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir01stClickModifyUserFace -->
+        <test-method status="SKIP" signature="TestFir04stClickModifyUserSignature()[pri:0, instance:test05.yueni.ios.myprofile.Test14EditUserInfoPage@290dbf45]" name="TestFir04stClickModifyUserSignature" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击修改用户个性签名" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir04stClickModifyUserSignature -->
+        <test-method status="SKIP" signature="TestFir03stClickModifyUserSex()[pri:0, instance:test05.yueni.ios.myprofile.Test14EditUserInfoPage@290dbf45]" name="TestFir03stClickModifyUserSex" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="点击修改用户性别" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFir03stClickModifyUserSex -->
+        <test-method status="SKIP" signature="ResetTestApplication()[pri:0, instance:test05.yueni.ios.myprofile.Test14EditUserInfoPage@290dbf45]" name="ResetTestApplication" is-config="true" duration-ms="0" started-at="2016-08-03T15:48:21Z" description="重置测试应用" finished-at="2016-08-03T15:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetTestApplication -->
+      </class> <!-- test05.yueni.ios.myprofile.Test14EditUserInfoPage -->
+    </test> <!-- ChinaSkinAllTestCase -->
+  </suite> <!-- chinaskin_iPhone -->
+</testng-results>

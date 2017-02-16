@@ -1,0 +1,93 @@
+<Checkpoint>
+
+	//MyProfilePage
+	<OpenMyProfile>Accessibility_MyProfileVC_MainTableView</OpenMyProfile>  //MyProfile模块中的表视图，打开该模块可以获取该模块的accessibilityIndentify值   
+    <OpenIntegralView>我的经验值</OpenIntegralView>  //打开我的经验值界面，检查是否显示添加的accessibilityIndentify
+    <OpenUpgradeRulePage>升级规则</OpenUpgradeRulePage>//点击升级规则后，标题显示：升级规则，进行校验检查
+    <OpenMyReceiveAddress>我的收货地址</OpenMyReceiveAddress>//点击收货地址后，界面navigationTitle显示“我的收货地址”
+    <OpenBandingMobile>安全验证</OpenBandingMobile>   // 打开绑定手机界面，检查是否显示添加安全验证
+    <OpenMenstruationAssistant>姨妈助手</OpenMenstruationAssistant> //打开姨妈助手，界面navigationTitle显示“姨妈助手”
+    <OpenMySubscribeTags>我的订阅</OpenMySubscribeTags>  //打开我订阅的标签，界面navigationTitle显示“我的订阅”
+    <OpenMyCollection>我的收藏</OpenMyCollection>  //打开我的收藏，界面navigationTitle显示“我的收藏”
+    <OpenBandingSocialPlatform>绑定社交账户</OpenBandingSocialPlatform>   // 打开绑定社交账户，界面navigationTitle显示“绑定社交账户”
+    <OpenSystemSetting>系统设置</OpenSystemSetting>  //打开系统设置界面，界面navigationTitle显示“系统设置”
+
+	
+    //UserCenterPage
+    <OpenUserLoginPage>登录</OpenUserLoginPage>   //打开登录窗口界面,登录界面会显示登录两个字
+    <OpenPostListPage>Accessibility_UserInfoHeader_ActionButton</OpenPostListPage> //点击帖子,界面显示:编辑按钮
+    <OpenAttentionPage>我关注的人</OpenAttentionPage>  //点击关注,标题显示:我关注的人
+    <OpenFollowerPage>我的粉丝</OpenFollowerPage>  //点击粉丝，标题显示:我的粉丝
+    <OpenEditPersonInfo>编辑个人资料</OpenEditPersonInfo> //在用户中心点击编辑按钮
+    <OpenPostDetailPage>Accessbility_PostContent_PostDetail</OpenPostDetailPage> //打开帖子详情页面
+    <ClickUserSignButton>已签到</ClickUserSignButton>
+    <ClickCancleAttentionUser>是否取消关注此用户？</ClickCancleAttentionUser>
+    <OpenUserCenterPage>个人签名</OpenUserCenterPage> //打开用户个人中心，会显示用户的个人签名
+    
+    
+	//UserLoginPage
+    <UserLoginSuccess>Accessibility_MyProfile_NickName</UserLoginSuccess>  //登录成功会显示用户的昵称
+	<OpenUserRegisterPage>手机注册</OpenUserRegisterPage>  //点击手机注册操作
+	<OpenForgetPwdPage>忘记密码</OpenForgetPwdPage>  //点击忘记密码操作
+	
+	
+	//ReceivingAddressPage
+	<ClickSaveAddressButton>我的收货地址</ClickSaveAddressButton>  //同MyProfilePage中的OpenMyReceiveAddress一致
+	<OpenEditAddressPage>编辑地址</OpenEditAddressPage>  //点击新增地址后进入到编辑地址页面
+	
+	
+	//ForgetUserPasswordPage
+	<OpenSetNewPasswordPage>设置新密码</OpenSetNewPasswordPage>  //通过验证
+	<NewPasswordSetSuccess>新密码设置成功</NewPasswordSetSuccess>  //界面显示新密码设置成功
+	
+	
+	//MenstruationAssistantPage
+	<EnterMenstruationCalendarPage>进入经期日历</EnterMenstruationCalendarPage>
+	<OpenMenstruationCalendarPage>姨妈日历</OpenMenstruationCalendarPage>  //打开姨妈日历页
+	<OpenMenstruationAnalysisPage>经期分析</OpenMenstruationAnalysisPage> //打开姨妈分析页
+	<ButtonComeBackCurrentMonth>回到当前月份</ButtonComeBackCurrentMonth> //显示“回到当前月份”按钮
+	<OpenMenstruationParaSetting>以下项目为经期预测所需信息</OpenMenstruationParaSetting>  
+	
+	
+	//SystemSettingPage
+	<OpenEditPersonInfo>编辑个人资料</OpenEditPersonInfo>  //打开编辑个人资料页
+	<OpenModifyUserLoginPwd>修改登录密码</OpenModifyUserLoginPwd> //打开修改登录密码页
+	<OpenMessageCenterSet>消息中心设置</OpenMessageCenterSet>//打开消息中心设置页
+	<OpenImageQualitySet>图片质量设置</OpenImageQualitySet>//打开图片质量设置页
+	<AlertIsCleanCache>是否要清理缓存</AlertIsCleanCache>点击是否要清理缓存页，会弹出alert提示框
+	<OpenSkinSmallSkin>瓷肌小技巧</OpenSkinSmallSkin>//打开瓷肌小技巧页
+	<OpenIdeaFeedBack>意见反馈</OpenIdeaFeedBack>//打开意见反馈页
+	<OpenAboutUsPage>关于我们</OpenAboutUsPage>//打开关于我们页
+	<ButtonExitCurrentAccount>退出当前用户</ButtonExitCurrentAccount> //打开退出当前用户页
+    <OpenShareAppToFriend>将应用告诉好友</OpenShareAppToFriend> // 点击将瓷肌分享给好友，弹出的界面会显示：将应用告诉好友
+	
+	
+	//UserPostCenterPage
+	<ClickUserNickName></ClickUserNickName> //同上，以重复
+	<ClickUserCommnetButton>详情</ClickUserCommnetButton> //点击帖子评论按钮，打开帖子的详情页面
+	<ClickUserShareButton>取消</ClickUserShareButton> //点击分享按钮，底部弹出分享界面，以及取消分享按钮
+	<ButtonPostCollection>收藏</ButtonPostCollection> //点击取消收藏后，帖子显示收藏状态按钮
+	<ButtonPostCancleColledtion>取消收藏</ButtonPostCancleColledtion>  //从我的帖子收藏中，点击分享按钮后，显示取消收藏安装状态
+	<LabelUserPostContentNum>Accessibility_UserInfoHearder_TotalContent</LabelUserPostContentNum>  //查看用户自己或这他人发布的帖子数目
+	
+	//EditUserInfoPage
+	<OpenEditUserNickName>编辑昵称</OpenEditUserNickName>  //打开编辑昵称页面
+	<OpenEditUserSign>编辑个性签名</OpenEditUserSign>  //打开编辑个性签名页面
+	
+	
+	//UserLabelSubscriptionPage
+	<OpenTagsContentPage>已订阅</OpenTagsContentPage> //点击订阅后按钮显示已订阅状态
+	<ButtonTagsContentPage>订阅</ButtonTagsContentPage> // 点击取消订阅后按钮显示订阅状态
+	<OpenTagsViewListPage>空空如也</OpenTagsViewListPage>  //点击我的标签，打开我收藏的标签
+	<OpenTagsOrderPage>Accessibility_PostTV_Cells</OpenTagsOrderPage> ／／从发现模块点击订阅标签，打开标签订阅页面
+	
+	//PostCollectionPage
+	<OpenPostCollectionPage>快去逛逛吧，看到好帖记得收藏哦！</OpenPostCollectionPage>  //点击收藏，打开我的收藏页面
+	
+	
+	
+	//IPhone02DiscoveryPage
+	<OpenMoreMasterPersonPage>社区达人</OpenMoreMasterPersonPage> //点击达人更多按钮
+	<OpenMoreTagViewPage>MoreTagView</OpenMoreTagViewPage>
+
+</Checkpoint>

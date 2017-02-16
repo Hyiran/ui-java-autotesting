@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [chinaskin_iPhone]">
+  <parameter name="app" value="com.yueniapp.sns"/>
+  <parameter name="port" value="4723"/>
+  <parameter name="platformVersion" value="9.2"/>
+  <parameter name="serverip" value="0.0.0.0"/>
+  <parameter name="device_type" value="iphone"/>
+  <parameter name="platformName" value="ios"/>
+  <parameter name="udid" value="a4ba1247eb17079858e6bd1cc8ae78360b06cf0b"/>
+  <parameter name="deviceName" value="iPhone6p"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="ChinaSkinAllTestCase(failed)">
+    <classes>
+      <class name="test05.yueni.ios.myprofile.Test08UserLoginPage">
+        <methods>
+          <include name="launchTestApp"/>
+          <include name="TestFir01stClickUserRegisterButton"/>
+          <include name="beforeSuite"/>
+          <include name="TestFir03stClickUserLoginButton"/>
+          <include name="TestFir02stClickUserForgetPassword"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test08UserLoginPage -->
+      <class name="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+        <methods>
+          <include name="TestFir12stClickUserExitLogout"/>
+          <include name="TestFir07stClickOpenCHASKINSkill"/>
+          <include name="TestFir11stClickShareAppToFriend"/>
+          <include name="TestFir03stClickModifyUserPassword"/>
+          <include name="TestFir05stClickImageQualitySetting"/>
+          <include name="TestFir02stClickModifyUserPassword"/>
+          <include name="TestFir06stClickCleanCacheData"/>
+          <include name="TestFir04stClickOpenMessageCenterSet"/>
+          <include name="TestFir08stClickOpenFeedback"/>
+          <include name="TestFir01stClickEditUserInfo"/>
+          <include name="TestFir09stClickOpenFeedback"/>
+          <include name="TestFir10stClickOpenAboutUs"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test07SystemSettingPage -->
+      <class name="test05.yueni.ios.myprofile.Test10ForgetPasswordPage">
+        <methods>
+          <include name="TestFir01stCommitUserRegister"/>
+          <include name="TestFir02stClickLoginButton"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test10ForgetPasswordPage -->
+      <class name="test00.yueni.ios.base.Test00AutoTestBase">
+        <methods>
+          <include name="TestFir02stInitTestApp"/>
+          <include name="TestFir01stInitTestData"/>
+        </methods>
+      </class> <!-- test00.yueni.ios.base.Test00AutoTestBase -->
+      <class name="test05.yueni.ios.myprofile.Test12MenstruationAssistantPage">
+        <methods>
+          <include name="TestFir07stClickUpdateMenstruationCalendar"/>
+          <include name="TestFir06stClickBackNowMonth"/>
+          <include name="TestFir03stOpenMenstruationCalendar"/>
+          <include name="TestFir04stClickMenstruationAnalysis"/>
+          <include name="TestFir01stSetMenstruationAssitant"/>
+          <include name="TestFir05stBrowseMenstruation"/>
+          <include name="TestFir02stClickModifyMenstruationPara"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test12MenstruationAssistantPage -->
+      <class name="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+        <methods>
+          <include name="TestFir09stClickCancleShareButton"/>
+          <include name="TestFir05stClickPostCommentButton"/>
+          <include name="TestFir03stClickBrowePostImages"/>
+          <include name="TestFir06stClickPostLikeButton"/>
+          <include name="TestFir02stClickPostUserNickName"/>
+          <include name="TestFir01stClickPostShareButton"/>
+          <include name="TestFir07stClickPostShareButton"/>
+          <include name="TestFir04stClickBrowePostTag"/>
+          <include name="TestFir08stClickCancleCollectionButton"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test15UserPostCollectionPage -->
+      <class name="test05.yueni.ios.myprofile.Test05MyProfilePage">
+        <methods>
+          <include name="TestFir02stClickSetMyAddress"/>
+          <include name="TestFir05stClickMySubscribe"/>
+          <include name="TestFir08stClickSystemSettingPage"/>
+          <include name="TestFir04stClickMenstruationAssistant"/>
+          <include name="TestFir03stClickBandingNum"/>
+          <include name="TestFir07stClickBindSocailPlatform"/>
+          <include name="TestFir06stClickMyCollection"/>
+          <include name="TestFir01stClickExperience"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test05MyProfilePage -->
+      <class name="test05.yueni.ios.myprofile.Test14EditUserInfoPage">
+        <methods>
+          <include name="TestFir02stClickModifyUserFace"/>
+          <include name="TestFir04stClickModifyUserSignature"/>
+          <include name="TestFir01stClickModifyUserFace"/>
+          <include name="TestFir03stClickModifyUserSex"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test14EditUserInfoPage -->
+      <class name="test05.yueni.ios.myprofile.Test11ReceiveAddressPage">
+        <methods>
+          <include name="TestFir02stEditReceivingAddress"/>
+          <include name="TestFir01stAddReceivingAddress"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test11ReceiveAddressPage -->
+      <class name="test05.yueni.ios.myprofile.Test13UserPostCenterPage">
+        <methods>
+          <include name="TestFir05stClickPostCommentButton"/>
+          <include name="TestFir06stClickPostLikeButton"/>
+          <include name="TestFir02stClickPostUserNickName"/>
+          <include name="TestFir07stClickPostShareButton"/>
+          <include name="TestFir03stClickBrowePostImages"/>
+          <include name="TestFir01stOpenUserCenterPostDetail"/>
+          <include name="TestFir08stClickPostShareButton"/>
+          <include name="TestFir04stClickBrowePostTag"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test13UserPostCenterPage -->
+      <class name="test05.yueni.ios.myprofile.Test06UserCenterPage">
+        <methods>
+          <include name="TestFir01stClickLookUserPhoto"/>
+          <include name="TestFir06stClickEditUserInfoButton"/>
+          <include name="TestFir10stClickUserCenterEditUserInfoButton"/>
+          <include name="TestFir02stClickEveryDaySign"/>
+          <include name="TestFir04stClickFollowerButton"/>
+          <include name="TestFir05stClickPostButton"/>
+          <include name="TestFir08stClickUserCenterAttentionButton"/>
+          <include name="TestFir07stClickOpenUserCenterPage"/>
+          <include name="TestFir09stClickUserCenterFollowerButton"/>
+          <include name="TestFir03stClickAttentionButton"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test06UserCenterPage -->
+      <class name="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage">
+        <methods>
+          <include name="TestFir02stClickCancleLabelSubscription"/>
+          <include name="TestFir01stClickUserLabelSubscriptionList"/>
+          <include name="TestFir03stClickLabelSubscriptionButton"/>
+          <include name="TestFir04stClickLabelSubscriptionShareButton"/>
+        </methods>
+      </class> <!-- test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage -->
+    </classes>
+  </test> <!-- ChinaSkinAllTestCase(failed) -->
+</suite> <!-- Failed suite [chinaskin_iPhone] -->

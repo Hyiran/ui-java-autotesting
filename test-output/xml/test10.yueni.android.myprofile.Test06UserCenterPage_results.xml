@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AllTest_02_UserCenterPage"
+           tests="13"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="50.446">
+  <properties />
+  
+  
+            <testcase name="TestFir02stClickAttentionButton" time="4.698" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir01stClickEveryDaySign" time="9.386" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir09stClickUserCenterFollowerButton" time="1.045" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir05stClickEditUserInfoButton" time="3.969" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir06stClickOpenUserCenterPage" time="1.302" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir07stClickUserCenterAttentionButton" time="1.259" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir08stClickUserCenterAttentionList" time="6.103" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir04stClickPostButton" time="4.674" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir11stClickMyFansUserFace" time="3.971" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir13stClickUserCenterEditUserInfoButton" time="4.054" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir12stClickAttentionMyFans" time="3.973" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir10stClickUserCenterFollowerList" time="1.462" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+                <testcase name="TestFir03stClickFollowerButton" time="4.550" classname="test10.yueni.android.myprofile.Test06UserCenterPage" />
+      
+</testsuite>

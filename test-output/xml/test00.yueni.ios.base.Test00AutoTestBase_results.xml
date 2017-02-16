@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChinaSkinAllTestCase"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="0.000">
+  <properties />
+  
+            <testcase name="TestFir06stRunCompareLogFileTest" time="0.0" classname="test00.yueni.ios.base.Test00AutoTestBase">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir02stInitTestApp" time="0.0" classname="test00.yueni.ios.base.Test00AutoTestBase">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir01stInitTestData" time="0.0" classname="test00.yueni.ios.base.Test00AutoTestBase">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

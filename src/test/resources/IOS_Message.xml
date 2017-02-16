@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="chinaskin_iPhone:消息模块" thread-count="1">
+	 <parameter name ="platformName" value = "ios"/>
+	 <parameter name = "platformVersion" value= "7.1"/>
+	 <parameter name = "deviceName" value= "iPhone 4s" />
+	 <parameter name = "udid" value = "a0ee9c874742cdd4bef1b43f148fe72068c58265"/>
+	 <parameter name = "app" value = "com.yueniapp.sns" />
+	 <parameter name = "serverip" value= "0.0.0.0" />
+	 <parameter name = "port" value = "4723"/>
+	 <parameter name = "device_type" value = "iphone"/>
+	 
+	 
+	 <test name="messageModuleTest" enabled="true">
+        <classes>
+ 			<class name="test00.yueni.iPhone.Test03MessagePage"/>
+		</classes>
+	</test>
+	
+	 
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	
+	<usedefaultlisteners name="true"/>
+
+	
+</suite>

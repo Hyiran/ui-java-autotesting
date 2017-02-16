@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChinaSkinAllTestCase"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="12"
+           time="0.004">
+  <properties />
+  
+            <testcase name="OpenInitializationTestPage" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="ResetTestApplication" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir02stClickEveryDaySign" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir10stClickUserCenterEditUserInfoButton" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir04stClickFollowerButton" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir05stClickPostButton" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir08stClickUserCenterAttentionButton" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir06stClickEditUserInfoButton" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir03stClickAttentionButton" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir07stClickOpenUserCenterPage" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir01stClickLookUserPhoto" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir09stClickUserCenterFollowerButton" time="0.0" classname="test05.yueni.ios.myprofile.Test06UserCenterPage">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

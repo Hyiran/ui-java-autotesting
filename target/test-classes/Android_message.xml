@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="chinaskin_iPhone:消息模块" thread-count="1">
+	 <parameter name ="platformName" value = "Android"/>
+	 <parameter name = "platformVersion" value= "4.4"/>
+	 <parameter name = "deviceName" value= "OBRSSS8TLROZ5SSC"/>
+	 <parameter name = "app-package" value= "com.yueniapp.sns"/>
+	 <parameter name = "app-activity" value= ".a.SplashActivity"/>
+	 <parameter name = "app" value = "/Users/chinaskin/AndroidDev/sns/yueniapp/build/outputs/apk/yueniapp-YN_TEST-debug-unaligned.apk" />
+	 <parameter name = "serverip" value= "0.0.0.0" />
+	 <parameter name = "port" value = "4723"/>
+	 <parameter name = "device_type" value = "android"/>
+	 	 
+	<test name = "messageModuleTest" enabled = "true">
+        <classes>
+        	<class name="test01.yueni.android.Test01IndexPage"/>
+		</classes>
+	</test>
+	 
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	
+	<usedefaultlisteners name="true"/>
+
+</suite>

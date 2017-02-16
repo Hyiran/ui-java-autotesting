@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="chinaskin_Android" thread-count="1">
+	 <parameter name ="platformName" value = "Android"/>
+	 <parameter name = "platformVersion" value= "5.1"/>
+	 <parameter name = "deviceName" value= "125eadf2"/>
+	 <parameter name = "app-package" value= "com.yueniapp.sns"/>
+	 <parameter name = "app-activity" value= ".a.HomeActivity"/>
+	 <parameter name = "app" value = "/Users/chinaskin/Desktop/yueniapp-YN_TEST-x86-debug.apk" />
+	 <parameter name = "serverip" value= "0.0.0.0" />
+	 <parameter name = "port" value = "4723"/>
+	 <parameter name = "device_type" value = "android"/>
+	 	 
+	<test name = "myModuleTest" enabled = "true" preserve-order="true">
+        <classes>
+			<class name="test06.yueni.android.base.Test00AutoTestBase"/>
+			<class name="test10.yueni.android.myprofile.Test05MyProfilePage"/>
+			<class name="test10.yueni.android.myprofile.Test06UserCenterPage"/>
+			<class name="test10.yueni.android.myprofile.Test07SystemSettingPage"/>
+        	<class name="test10.yueni.android.myprofile.Test08UserLoginPage"/>
+         	<class name="test10.yueni.android.myprofile.Test09UserRegisterPage"/>
+        	<class name="test10.yueni.android.myprofile.Test11ReceiveAddressPage"/> 
+        	<class name="test10.yueni.android.myprofile.Test14EditUserInfoPage"/> 
+        	
+		</classes>
+	</test>
+	
+	 
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	
+	<usedefaultlisteners name="true"/>
+
+</suite>

@@ -1,0 +1,4 @@
+<Mypage>
+	<usernameTextField type="xpath">//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</usernameTextField>
+	<passwordTextField type="xpath">//UIAApplication[1]/UIAWindow[1]/UIASecureTextField[1]</passwordTextField>	
+</Mypage>

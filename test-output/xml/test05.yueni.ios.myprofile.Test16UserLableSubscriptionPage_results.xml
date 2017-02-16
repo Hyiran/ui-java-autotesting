@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChinaSkinAllTestCase"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="6"
+           time="0.002">
+  <properties />
+  
+            <testcase name="ResetTestApplication" time="0.0" classname="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage">
+          <skipped />
+    </testcase>
+            <testcase name="OpenInitializationTestPage" time="0.0" classname="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir02stClickCancleLabelSubscription" time="0.0" classname="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir04stClickLabelSubscriptionShareButton" time="0.0" classname="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir03stClickLabelSubscriptionButton" time="0.0" classname="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir01stClickUserLabelSubscriptionList" time="0.0" classname="test05.yueni.ios.myprofile.Test16UserLableSubscriptionPage">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

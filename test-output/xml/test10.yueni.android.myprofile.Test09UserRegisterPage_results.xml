@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AllTest_02_OtherFunctionalPage"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="55.470">
+  <properties />
+  
+  
+            <testcase name="TestFir07stClickSaveUserRigister" time="14.939" classname="test10.yueni.android.myprofile.Test09UserRegisterPage" />
+                <testcase name="TestFir03stClickSelectUserFace" time="0.426" classname="test10.yueni.android.myprofile.Test09UserRegisterPage" />
+                <testcase name="TestFir02stClickGetVerificationCode" time="28.035" classname="test10.yueni.android.myprofile.Test09UserRegisterPage" />
+                <testcase name="TestFir06stClickAfterSelectPhotoToClickNext" time="2.274" classname="test10.yueni.android.myprofile.Test09UserRegisterPage" />
+                <testcase name="TestFir05stClickSelectAnPhoto" time="1.399" classname="test10.yueni.android.myprofile.Test09UserRegisterPage" />
+                <testcase name="TestFir01stClickMobileRegisterButton" time="8.397" classname="test10.yueni.android.myprofile.Test09UserRegisterPage" />
+      
+</testsuite>

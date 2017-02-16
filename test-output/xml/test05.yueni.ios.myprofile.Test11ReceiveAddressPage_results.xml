@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChinaSkinAllTestCase"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="4"
+           time="0.003">
+  <properties />
+  
+            <testcase name="ResetTestApplication" time="0.0" classname="test05.yueni.ios.myprofile.Test11ReceiveAddressPage">
+          <skipped />
+    </testcase>
+            <testcase name="OpenInitializationTestPage" time="0.0" classname="test05.yueni.ios.myprofile.Test11ReceiveAddressPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir01stAddReceivingAddress" time="0.0" classname="test05.yueni.ios.myprofile.Test11ReceiveAddressPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir02stEditReceivingAddress" time="0.0" classname="test05.yueni.ios.myprofile.Test11ReceiveAddressPage">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

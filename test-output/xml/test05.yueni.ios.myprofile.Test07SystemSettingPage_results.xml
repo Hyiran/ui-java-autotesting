@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChinaSkinAllTestCase"
+           tests="14"
+           failures="0"
+           errors="0"
+           skipped="14"
+           time="0.003">
+  <properties />
+  
+            <testcase name="OpenInitializationTestPage" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="ResetTestApplication" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir04stClickOpenMessageCenterSet" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir12stClickUserExitLogout" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir05stClickImageQualitySetting" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir02stClickModifyUserPassword" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir03stClickModifyUserPassword" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir09stClickOpenFeedback" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir11stClickShareAppToFriend" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir08stClickOpenFeedback" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir10stClickOpenAboutUs" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir01stClickEditUserInfo" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir07stClickOpenCHASKINSkill" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir06stClickCleanCacheData" time="0.0" classname="test05.yueni.ios.myprofile.Test07SystemSettingPage">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

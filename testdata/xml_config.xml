@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+	<data_path>
+		<testdata_path>testdata</testdata_path>
+	</data_path>
+	
+	<propertyfile>
+		<userinfo_Property>pro_userinfo.properties</userinfo_Property>
+		<access_Property>pro_accessibility.properties</access_Property>
+		<statistics_Property>pro_statistics.properties</statistics_Property>
+	</propertyfile>
+	
+
+	<screenshot>
+		<screenshot_toggle>on</screenshot_toggle>
+		<screenshot_path>/Users/yunfeiyang/快盘/EclipseCode/PPGenuineTest/app/</screenshot_path>
+		<screenshot_linkpath>/Users/yunfeiyang/快盘/EclipseCode/PPGenuineTest/app/</screenshot_linkpath>
+	</screenshot>
+	
+	<testlink>
+		<testlink_toggle>off</testlink_toggle>
+		<testlink_apiurl>http://127.0.0.1/testlink/lib/api/xmlrpc.php</testlink_apiurl>
+		<testlink_threads>3</testlink_threads>
+	</testlink>
+	
+</root>

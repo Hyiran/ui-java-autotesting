@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChinaSkinAllTestCase"
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="11"
+           time="0.001">
+  <properties />
+  
+            <testcase name="ResetTestApplication" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="OpenInitializationTestPage" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir06stClickPostLikeButton" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir07stClickPostShareButton" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir02stClickPostUserNickName" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir05stClickPostCommentButton" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir01stClickPostShareButton" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir09stClickCancleShareButton" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir03stClickBrowePostImages" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir04stClickBrowePostTag" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+            <testcase name="TestFir08stClickCancleCollectionButton" time="0.0" classname="test05.yueni.ios.myprofile.Test15UserPostCollectionPage">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
